@@ -36,3 +36,16 @@ gerber/
 .kidiff/
 mirte_combination.kicad_pcb.zip
 bom/*
+
+*.kicad_prl
+mirte-master/#auto_saved_files#
+*.lck
+svg/
+.cache/
+Generated/
+production/
+*/jlcpcb/*
+mirte-master/mirte-master.step
+mirte-master-bottom/mirte-master-bottom.step
+!*/jlcpcb/project.db
+mirte-pioneer/jlcpcb/production_files/GERBER-mirte_combination.zip
