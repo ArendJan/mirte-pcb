@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "usbc")(type "KiCad")(uri "${KIPRJMOD}/libs/lcsc/usbc.kicad_sym")(options "")(descr ""))
+)
