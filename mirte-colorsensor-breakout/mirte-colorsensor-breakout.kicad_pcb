@@ -1002,6 +1002,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 127.254 72.39)
+		(end 138.43 83.566)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "b899acbb-2042-42d5-8f6e-621146fd4f50")
+	)
 	(gr_line
 		(start 125 82)
 		(end 125 74)
@@ -1108,7 +1119,7 @@
 		(layer "User.1")
 		(uuid "e73a0daa-0065-4bb7-8db5-064b83d0f0e0")
 	)
-	(gr_text "VCC\nGND\nSCL\nSDA"
+	(gr_text "SDA\nSCL\nGND\nVCC"
 		(at 135 82.5 0)
 		(layer "B.SilkS")
 		(uuid "8f9ff3ff-3790-4ccb-9684-54eb8e14d23c")
@@ -1120,8 +1131,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GND\nVCC\nSCL\nSDA"
-		(at 133 83 0)
+	(gr_text "SDA\nSCL\nGND\nVIN"
+		(at 139.446 82.55 0)
 		(layer "F.SilkS")
 		(uuid "2da58fd3-bae5-41c5-9d33-11e3be2d16bb")
 		(effects
@@ -1129,11 +1140,11 @@
 				(size 1.5 1.5)
 				(thickness 0.2)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
-	(gr_text "I2C"
-		(at 148 73 0)
+	(gr_text "I2C\ncolor"
+		(at 146.558 74.676 0)
 		(layer "F.SilkS")
 		(uuid "e4bc9335-dd3f-4089-b238-b886a32aecf5")
 		(effects
@@ -1359,6 +1370,38 @@
 		(free yes)
 		(net 3)
 		(uuid "ccc59488-e90d-475f-bad6-db69820c99c4")
+	)
+	(segment
+		(start 132.334 79.248)
+		(end 129.037 79.248)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "8638339e-bdbb-4fb3-8685-381328d7d7ea")
+	)
+	(segment
+		(start 143.019 81.728)
+		(end 134.814 81.728)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "9c7ab2bb-7d3a-42ee-a32e-f81b37f3867d")
+	)
+	(segment
+		(start 134.814 81.728)
+		(end 132.334 79.248)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "cd56d992-eb7d-4f0d-a1a3-42bc65a471fb")
+	)
+	(segment
+		(start 129.037 79.248)
+		(end 129.025 79.26)
+		(width 2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "e04bc7c3-52be-49cb-821f-2ea23eb99a93")
 	)
 	(segment
 		(start 133.846 81.8)
