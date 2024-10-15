@@ -4549,6 +4549,184 @@
 				)
 			)
 		)
+		(symbol "lcsc:U254-051T-4BH83-S1S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "U254-051T-4BH83-S1S"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc:MICRO-USB-SMD_U254-051T-4BH83-S1S"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_XKB-Enterprise-U254-051T-4BH83-S1S_C319160.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C319160"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U254-051T-4BH83-S1S_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "test_pcb-rescue:USB_A-Connector"
 			(pin_names
 				(offset 1.016)
@@ -4955,7 +5133,15 @@
 		(uuid "2e1578e6-7d01-401d-bce8-2a337f11f81a")
 	)
 	(no_connect
-		(at 172.72 165.1)
+		(at 248.92 105.41)
+		(uuid "2eb1c799-d096-47b0-b6c9-2cf26d28a32a")
+	)
+	(no_connect
+		(at 248.92 107.95)
+		(uuid "5b218ad9-d036-4d75-998e-7f63ebd9043b")
+	)
+	(no_connect
+		(at 135.89 151.13)
 		(uuid "aca7bd0a-d3ab-4c08-b641-8c63b8a02c3f")
 	)
 	(no_connect
@@ -4967,12 +5153,16 @@
 		(uuid "b9442a0d-a7a0-44ca-af59-07355620f621")
 	)
 	(no_connect
-		(at 172.72 173.99)
+		(at 142.24 144.78)
 		(uuid "c30d1374-9020-492c-9dbc-ca5540440387")
 	)
 	(no_connect
 		(at 191.77 67.31)
 		(uuid "c6420983-4eeb-489f-9898-4707dc95d4eb")
+	)
+	(no_connect
+		(at 248.92 102.87)
+		(uuid "d7702804-d1b5-4b43-8aeb-b3b371c51034")
 	)
 	(no_connect
 		(at 81.28 182.88)
@@ -5060,7 +5250,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 151.13) (xy 281.94 161.29)
+			(xy 231.14 157.48) (xy 231.14 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5140,7 +5330,7 @@
 	)
 	(polyline
 		(pts
-			(xy 227.33 93.98) (xy 227.33 151.13)
+			(xy 176.53 100.33) (xy 176.53 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5170,7 +5360,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 143.51) (xy 261.62 143.51)
+			(xy 203.2 149.86) (xy 210.82 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5180,7 +5370,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 110.49) (xy 254 110.49)
+			(xy 189.23 116.84) (xy 203.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5260,7 +5450,7 @@
 	)
 	(polyline
 		(pts
-			(xy 227.33 149.86) (xy 227.33 161.29)
+			(xy 176.53 156.21) (xy 176.53 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5270,7 +5460,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 142.24) (xy 254 143.51)
+			(xy 203.2 148.59) (xy 203.2 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5290,7 +5480,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 146.05) (xy 261.62 146.05)
+			(xy 201.93 152.4) (xy 210.82 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5350,7 +5540,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 113.03) (xy 252.73 114.3)
+			(xy 201.93 119.38) (xy 201.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5380,7 +5570,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.83 142.24) (xy 163.83 189.23)
+			(xy 163.195 153.035) (xy 163.83 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5478,19 +5668,9 @@
 		)
 		(uuid "4c91aec1-2c54-4d38-a63d-762082792a07")
 	)
-	(polyline
-		(pts
-			(xy 123.19 142.24) (xy 124.46 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dfd094a-2a9e-406d-89b0-4b6c51e19865")
-	)
 	(wire
 		(pts
-			(xy 252.73 114.3) (xy 261.62 114.3)
+			(xy 201.93 120.65) (xy 210.82 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5537,6 +5717,16 @@
 			(type default)
 		)
 		(uuid "554e03c0-610e-480f-b757-135833831158")
+	)
+	(polyline
+		(pts
+			(xy 123.825 154.305) (xy 123.825 153.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c3c225-61a4-490e-a477-a49dc551cd55")
 	)
 	(wire
 		(pts
@@ -5590,7 +5780,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 113.03) (xy 252.73 113.03)
+			(xy 189.23 119.38) (xy 201.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5620,7 +5810,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 142.24) (xy 163.83 142.24)
+			(xy 125.095 153.035) (xy 163.195 153.035)
 		)
 		(stroke
 			(width 0)
@@ -5640,7 +5830,7 @@
 	)
 	(polyline
 		(pts
-			(xy 227.33 161.29) (xy 278.13 161.29)
+			(xy 176.53 167.64) (xy 227.33 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +5880,7 @@
 	)
 	(polyline
 		(pts
-			(xy 280.67 93.98) (xy 281.94 93.98)
+			(xy 229.87 100.33) (xy 231.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5740,7 +5930,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 144.78) (xy 252.73 146.05)
+			(xy 201.93 151.13) (xy 201.93 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5750,7 +5940,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 110.49) (xy 254 111.76)
+			(xy 203.2 116.84) (xy 203.2 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5890,7 +6080,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 100.33) (xy 261.62 100.33)
+			(xy 189.23 106.68) (xy 210.82 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5910,7 +6100,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 132.08) (xy 261.62 132.08)
+			(xy 189.23 138.43) (xy 210.82 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6020,7 +6210,7 @@
 	)
 	(polyline
 		(pts
-			(xy 227.33 93.98) (xy 278.13 93.98)
+			(xy 176.53 100.33) (xy 227.33 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6210,7 +6400,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.19 189.23) (xy 123.19 142.24)
+			(xy 123.825 189.23) (xy 123.825 154.305)
 		)
 		(stroke
 			(width 0)
@@ -6220,7 +6410,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 111.76) (xy 261.62 111.76)
+			(xy 203.2 118.11) (xy 210.82 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6330,7 +6520,7 @@
 	)
 	(polyline
 		(pts
-			(xy 276.86 161.29) (xy 281.94 161.29)
+			(xy 226.06 167.64) (xy 231.14 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6410,7 +6600,7 @@
 	)
 	(polyline
 		(pts
-			(xy 276.86 93.98) (xy 280.67 93.98)
+			(xy 226.06 100.33) (xy 229.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6460,7 +6650,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 142.24) (xy 254 142.24)
+			(xy 189.23 148.59) (xy 203.2 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6718,9 +6908,19 @@
 		)
 		(uuid "e4a903a8-a587-4e3a-8128-71537bee1df6")
 	)
+	(polyline
+		(pts
+			(xy 123.825 153.035) (xy 125.095 153.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b6215a-2cfa-46c2-a331-a835933ca191")
+	)
 	(wire
 		(pts
-			(xy 240.03 102.87) (xy 261.62 102.87)
+			(xy 189.23 109.22) (xy 210.82 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6740,7 +6940,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 144.78) (xy 252.73 144.78)
+			(xy 189.23 151.13) (xy 201.93 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6760,7 +6960,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 93.98) (xy 281.94 151.13)
+			(xy 231.14 100.33) (xy 231.14 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6860,7 +7060,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 134.62) (xy 261.62 134.62)
+			(xy 189.23 140.97) (xy 210.82 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6940,7 +7140,7 @@
 	)
 	(text "B-1B"
 		(exclude_from_sim no)
-		(at 266.7 144.78 0)
+		(at 215.9 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6984,7 +7184,7 @@
 	)
 	(text "Motor controllers"
 		(exclude_from_sim no)
-		(at 232.41 158.75 0)
+		(at 181.61 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7072,7 +7272,7 @@
 	)
 	(text "A-1B"
 		(exclude_from_sim no)
-		(at 266.7 133.35 0)
+		(at 215.9 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7163,7 +7363,7 @@
 	)
 	(text "A-1A"
 		(exclude_from_sim no)
-		(at 266.7 135.89 0)
+		(at 215.9 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7370,7 +7570,7 @@
 	)
 	(text "B-1A"
 		(exclude_from_sim no)
-		(at 266.7 115.57 0)
+		(at 215.9 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7381,7 +7581,7 @@
 	)
 	(text "A-1B"
 		(exclude_from_sim no)
-		(at 266.7 101.6 0)
+		(at 215.9 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7447,7 +7647,7 @@
 	)
 	(text "B-1A"
 		(exclude_from_sim no)
-		(at 266.7 147.32 0)
+		(at 215.9 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7502,7 +7702,7 @@
 	)
 	(text "A-1A"
 		(exclude_from_sim no)
-		(at 266.7 104.14 0)
+		(at 215.9 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7557,7 +7757,7 @@
 	)
 	(text "B-1B"
 		(exclude_from_sim no)
-		(at 266.7 113.03 0)
+		(at 215.9 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7568,7 +7768,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 273.05 135.89 0)
+		(at 222.25 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7590,7 +7790,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 273.05 115.57 0)
+		(at 222.25 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7601,7 +7801,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 273.05 104.14 0)
+		(at 222.25 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7648,7 +7848,7 @@
 	)
 	(text "PWM"
 		(exclude_from_sim no)
-		(at 273.05 147.32 0)
+		(at 222.25 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7760,6 +7960,28 @@
 		(uuid "26229dd4-8d8f-4b5d-b1e4-4bee35490499")
 	)
 	(label "USB_GND"
+		(at 248.92 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "820a5ac7-965e-4869-81f7-e1888440efa9")
+	)
+	(label "USB_5V"
+		(at 248.92 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89c14083-b0a7-4382-9e8c-a60c3d594699")
+	)
+	(label "USB_GND"
 		(at 236.22 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7780,6 +8002,17 @@
 			(justify right bottom)
 		)
 		(uuid "be324ef9-62ac-433f-94a5-dee9f956c8e1")
+	)
+	(label "USB_GND"
+		(at 271.78 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0f306c4-ef69-4770-a19b-68cec3e3299a")
 	)
 	(label "USB_5V"
 		(at 251.46 67.31 180)
@@ -7833,7 +8066,7 @@
 	)
 	(global_label "GP21"
 		(shape input)
-		(at 240.03 113.03 180)
+		(at 189.23 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7843,7 +8076,7 @@
 		)
 		(uuid "04775d5e-66d6-4f04-a180-05cbce119d4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.6579 112.9506 0)
+			(at 181.8579 119.3006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,7 +8088,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 261.62 105.41 180)
+		(at 210.82 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7865,7 +8098,7 @@
 		)
 		(uuid "0838b5c3-db9c-4670-9228-ae24fb6ce0ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 13.97 0)
+			(at 100.33 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8284,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 240.03 105.41 180)
+		(at 189.23 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8061,7 +8294,7 @@
 		)
 		(uuid "1c400c7e-2bcd-4b6c-8903-960f3a676ca3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 13.97 0)
+			(at 100.33 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +8371,7 @@
 	)
 	(global_label "GP16"
 		(shape input)
-		(at 240.03 134.62 180)
+		(at 189.23 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8151,7 +8384,7 @@
 		)
 		(uuid "2302a675-863c-4ea5-b4b4-b57a3d081436")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.2119 134.493 0)
+			(at 181.4119 140.843 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8408,7 +8641,7 @@
 	)
 	(global_label "D_GND"
 		(shape input)
-		(at 261.62 119.38 180)
+		(at 210.82 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8418,7 +8651,7 @@
 		)
 		(uuid "342e610b-5262-40b4-a770-65470080eb75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.0988 119.3006 0)
+			(at 202.2988 125.6506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,7 +8729,7 @@
 	)
 	(global_label "D_GND"
 		(shape input)
-		(at 261.62 151.13 180)
+		(at 210.82 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8506,7 +8739,7 @@
 		)
 		(uuid "3bf22141-61ae-46d7-b4af-0d9c5211f2bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.0988 151.0506 0)
+			(at 202.2988 157.4006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8584,7 +8817,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 261.62 116.84 180)
+		(at 210.82 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8594,7 +8827,7 @@
 		)
 		(uuid "416b9e62-24cf-4e4a-ae15-e0cd57b92dcc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 13.97 0)
+			(at 100.33 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,7 +9428,7 @@
 	)
 	(global_label "D_GND"
 		(shape input)
-		(at 240.03 139.7 180)
+		(at 189.23 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9205,7 +9438,7 @@
 		)
 		(uuid "70052010-cdbb-4da8-81ef-2d337bc61045")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.5088 139.6206 0)
+			(at 180.7088 145.9706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +9472,7 @@
 	)
 	(global_label "GP18"
 		(shape input)
-		(at 240.03 100.33 180)
+		(at 189.23 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9249,7 +9482,7 @@
 		)
 		(uuid "716d9a1e-69d2-4a7b-9541-4148b04dfdd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.6579 100.2506 0)
+			(at 181.8579 106.6006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +9800,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 240.03 137.16 180)
+		(at 189.23 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9577,7 +9810,7 @@
 		)
 		(uuid "89d05bdf-8311-4bfd-afe4-f52be0ee061d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 22.86 0)
+			(at 100.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9874,7 +10107,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 261.62 148.59 180)
+		(at 210.82 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9884,7 +10117,7 @@
 		)
 		(uuid "968620df-3477-4dde-a9e5-d53ad0f9e690")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 45.72 0)
+			(at 100.33 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,7 +10279,7 @@
 	)
 	(global_label "D_GND"
 		(shape input)
-		(at 261.62 139.7 180)
+		(at 210.82 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10056,7 +10289,7 @@
 		)
 		(uuid "a0d40f14-6aff-4583-8f39-bf80eee05441")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.0988 139.6206 0)
+			(at 202.2988 145.9706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +10411,7 @@
 	)
 	(global_label "GP17"
 		(shape input)
-		(at 240.03 144.78 180)
+		(at 189.23 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10191,7 +10424,7 @@
 		)
 		(uuid "a7a60ba1-2268-45ba-b710-4370219c8841")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.2119 144.653 0)
+			(at 181.4119 151.003 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +10483,7 @@
 	)
 	(global_label "D_GND"
 		(shape input)
-		(at 240.03 107.95 180)
+		(at 189.23 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10260,7 +10493,7 @@
 		)
 		(uuid "a96f8c9b-dc33-4732-b003-faf090b9181c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.5088 107.8706 0)
+			(at 180.7088 114.2206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10636,7 @@
 	)
 	(global_label "GP27"
 		(shape input)
-		(at 240.03 142.24 180)
+		(at 189.23 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10416,7 +10649,7 @@
 		)
 		(uuid "b5925c75-3528-43ab-ac91-3c47c0648cb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.2119 142.113 0)
+			(at 181.4119 148.463 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +11150,7 @@
 	)
 	(global_label "GP20"
 		(shape input)
-		(at 240.03 110.49 180)
+		(at 189.23 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10927,7 +11160,7 @@
 		)
 		(uuid "dca18837-c1cd-48ad-9cdb-e7165019b954")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.6579 110.4106 0)
+			(at 181.8579 116.7606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10939,7 +11172,7 @@
 	)
 	(global_label "GP26"
 		(shape input)
-		(at 240.03 132.08 180)
+		(at 189.23 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10952,7 +11185,7 @@
 		)
 		(uuid "dcec5435-e23d-4703-8869-77aa81f480cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.2119 131.953 0)
+			(at 181.4119 138.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11265,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 261.62 137.16 180)
+		(at 210.82 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11042,7 +11275,7 @@
 		)
 		(uuid "e1288d05-b6a1-4b7b-bc6a-86ce315f8442")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 45.72 0)
+			(at 100.33 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11119,7 +11352,7 @@
 	)
 	(global_label "D_GND"
 		(shape input)
-		(at 261.62 107.95 180)
+		(at 210.82 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11129,7 +11362,7 @@
 		)
 		(uuid "e71af4c6-d83b-4769-a104-7e29bdd4d458")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.0988 107.8706 0)
+			(at 202.2988 114.2206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +11440,7 @@
 	)
 	(global_label "GP19"
 		(shape input)
-		(at 240.03 102.87 180)
+		(at 189.23 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11217,7 +11450,7 @@
 		)
 		(uuid "f1e52e72-df17-4c4e-ba9b-ceec161ae853")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.6579 102.7906 0)
+			(at 181.8579 109.1406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11700,7 +11933,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 184.15 170.18 0)
+		(at 143.51 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11709,7 +11942,7 @@
 		(fields_autoplaced yes)
 		(uuid "05a22640-51a0-473e-8753-bc0eee19f23f")
 		(property "Reference" "H1"
-			(at 186.69 168.91 0)
+			(at 146.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11718,7 +11951,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 186.69 171.45 0)
+			(at 146.05 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11960,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.7mm"
-			(at 184.15 170.18 0)
+			(at 143.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,7 +11969,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 170.18 0)
+			(at 143.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,7 +11978,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 170.18 0)
+			(at 143.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,9 +12770,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "2301d9e7-7e85-4336-9af7-64007e55cd7a")
 		(property "Reference" "J5"
 			(at 104.14 157.48 0)
@@ -13074,7 +13307,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Female")
-		(at 266.7 102.87 0)
+		(at 215.9 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13082,7 +13315,7 @@
 		(dnp no)
 		(uuid "49af1053-4d58-4abd-af08-afae64e1d242")
 		(property "Reference" "J23"
-			(at 266.7 96.52 0)
+			(at 215.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13092,7 +13325,7 @@
 			)
 		)
 		(property "Value" "MC1-A"
-			(at 266.7 96.52 0)
+			(at 215.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13101,7 +13334,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 266.7 102.87 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,7 +13343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 102.87 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,7 +13352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 102.87 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13361,7 @@
 			)
 		)
 		(property "Farnell_num" "1516278"
-			(at 266.7 102.87 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,7 +13370,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 266.7 102.87 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +13379,7 @@
 			)
 		)
 		(property "Manufacturer_num" "B4B-XH-A (LF)(SN)"
-			(at 266.7 102.87 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13155,7 +13388,7 @@
 			)
 		)
 		(property "remarks" "Same as J10 IR1"
-			(at 266.7 102.87 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13164,7 +13397,7 @@
 			)
 		)
 		(property "farnell_alternative" "3287574"
-			(at 266.7 102.87 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13173,7 +13406,7 @@
 			)
 		)
 		(property "LCSC" "C144395"
-			(at 266.7 102.87 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,10 +13439,10 @@
 		(lib_id "lcsc:TYPE-C6P(073)")
 		(at 265.43 69.85 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "49dcae7d-803b-4703-9dff-3d69fc0f1d23")
 		(property "Reference" "USB1"
@@ -13685,10 +13918,10 @@
 		(lib_id "Device:R")
 		(at 228.6 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "66706cfd-6633-4260-b49a-c546d980257b")
 		(property "Reference" "R1"
@@ -14186,7 +14419,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 172.72 162.56 0)
+		(at 135.89 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14195,7 +14428,7 @@
 		(fields_autoplaced yes)
 		(uuid "76eb6279-1ee2-4ebb-a904-0500ee791391")
 		(property "Reference" "H3"
-			(at 175.26 160.02 0)
+			(at 138.43 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,7 +14437,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 175.26 162.56 0)
+			(at 138.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,7 +14446,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 172.72 162.56 0)
+			(at 135.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14222,7 +14455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 162.56 0)
+			(at 135.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14231,7 +14464,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 162.56 0)
+			(at 135.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14383,7 +14616,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Female")
-		(at 245.11 137.16 0)
+		(at 194.31 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14391,7 +14624,7 @@
 		(dnp no)
 		(uuid "7e348447-30d4-4135-811a-d20ad660658b")
 		(property "Reference" "J18"
-			(at 245.8212 137.7696 0)
+			(at 195.0212 144.1196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14401,7 +14634,7 @@
 			)
 		)
 		(property "Value" "MC2"
-			(at 240.03 148.59 0)
+			(at 189.23 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14410,7 +14643,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
-			(at 245.11 137.16 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14419,7 +14652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 137.16 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14428,7 +14661,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 137.16 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14437,7 +14670,7 @@
 			)
 		)
 		(property "Farnell_num" "1593462"
-			(at 245.11 137.16 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14446,7 +14679,7 @@
 			)
 		)
 		(property "Manufacturer" "MULTICOMP PRO"
-			(at 245.11 137.16 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14455,7 +14688,7 @@
 			)
 		)
 		(property "Manufacturer_num" "2212S-06SG-85"
-			(at 245.11 137.16 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14464,7 +14697,7 @@
 			)
 		)
 		(property "remarks" "Same as J8"
-			(at 245.11 137.16 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14473,7 +14706,7 @@
 			)
 		)
 		(property "farnell_alternative" ""
-			(at 245.11 137.16 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,7 +14715,7 @@
 			)
 		)
 		(property "LCSC" "C2935900"
-			(at 245.11 137.16 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15672,7 +15905,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Female")
-		(at 266.7 134.62 0)
+		(at 215.9 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15680,7 +15913,7 @@
 		(dnp no)
 		(uuid "b5e28b24-d6af-4b96-b9e7-f008ed63dd58")
 		(property "Reference" "#J5"
-			(at 266.7 128.27 0)
+			(at 215.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15690,7 +15923,7 @@
 			)
 		)
 		(property "Value" "MC2-A"
-			(at 266.7 128.27 0)
+			(at 215.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15699,7 +15932,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 266.7 134.62 0)
+			(at 215.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15708,7 +15941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 134.62 0)
+			(at 215.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15717,7 +15950,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 134.62 0)
+			(at 215.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,7 +16232,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Female")
-		(at 245.11 105.41 0)
+		(at 194.31 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16007,7 +16240,7 @@
 		(dnp no)
 		(uuid "c949f7ac-c73c-4b22-83c4-7fc3bd7f2241")
 		(property "Reference" "J17"
-			(at 245.8212 106.0196 0)
+			(at 195.0212 112.3696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,7 +16250,7 @@
 			)
 		)
 		(property "Value" "MC1"
-			(at 240.03 115.57 0)
+			(at 189.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16026,7 +16259,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
-			(at 245.11 105.41 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16035,7 +16268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 105.41 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16044,7 +16277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 105.41 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +16286,7 @@
 			)
 		)
 		(property "Farnell_num" "1593462"
-			(at 245.11 105.41 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16062,7 +16295,7 @@
 			)
 		)
 		(property "Manufacturer" "MULTICOMP PRO"
-			(at 245.11 105.41 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +16304,7 @@
 			)
 		)
 		(property "Manufacturer_num" "2212S-06SG-85"
-			(at 245.11 105.41 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16080,7 +16313,7 @@
 			)
 		)
 		(property "remarks" "Same as J8"
-			(at 245.11 105.41 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,7 +16322,7 @@
 			)
 		)
 		(property "farnell_alternative" ""
-			(at 245.11 105.41 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16098,7 +16331,7 @@
 			)
 		)
 		(property "LCSC" "C2935900"
-			(at 245.11 105.41 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16135,7 +16368,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Female")
-		(at 266.7 146.05 0)
+		(at 215.9 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16143,7 +16376,7 @@
 		(dnp no)
 		(uuid "ca3baa3d-1bc9-489e-a8cf-5967518f3224")
 		(property "Reference" "#J6"
-			(at 266.7 139.7 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16153,7 +16386,7 @@
 			)
 		)
 		(property "Value" "MC2-B"
-			(at 266.7 154.94 0)
+			(at 215.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16162,7 +16395,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 266.7 146.05 0)
+			(at 215.9 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16171,7 +16404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 146.05 0)
+			(at 215.9 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16180,7 +16413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 146.05 0)
+			(at 215.9 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16213,10 +16446,10 @@
 		(lib_id "Device:R")
 		(at 236.22 77.47 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cb03428f-a332-4923-bd98-9e586ad784d9")
 		(property "Reference" "R12"
@@ -16283,6 +16516,95 @@
 			(project "mirte_combination"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:U254-051T-4BH83-S1S")
+		(at 261.62 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd5e2a7a-3377-4fdd-a721-fcb29be77aa0")
+		(property "Reference" "USB2"
+			(at 260.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U254-051T-4BH83-S1S"
+			(at 260.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:MICRO-USB-SMD_U254-051T-4BH83-S1S"
+			(at 261.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_XKB-Enterprise-U254-051T-4BH83-S1S_C319160.html"
+			(at 261.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C319160"
+			(at 261.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "703d38f6-3b3d-46b1-828a-c3411f6c9373")
+		)
+		(pin "4"
+			(uuid "47e9067a-6aa7-412c-9787-5463a1897832")
+		)
+		(pin "5"
+			(uuid "918b89d5-d135-429a-9c14-14fb2984957c")
+		)
+		(pin "2"
+			(uuid "25840ee5-1e3c-410b-85f0-ed2df15541e0")
+		)
+		(pin "3"
+			(uuid "1d2850bc-b96d-4456-aa7e-f5ca71c9217f")
+		)
+		(pin "6"
+			(uuid "6d87a473-b3b3-4ec9-95b7-feb0be5f00d4")
+		)
+		(instances
+			(project ""
+				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
+					(reference "USB2")
 					(unit 1)
 				)
 			)
@@ -16680,7 +17002,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Female")
-		(at 266.7 114.3 0)
+		(at 215.9 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16688,7 +17010,7 @@
 		(dnp no)
 		(uuid "dff6cc03-3075-4d1c-92bb-2000a5da940f")
 		(property "Reference" "J24"
-			(at 266.7 107.95 0)
+			(at 215.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16698,7 +17020,7 @@
 			)
 		)
 		(property "Value" "MC1-B"
-			(at 267.97 123.19 0)
+			(at 217.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16707,7 +17029,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 266.7 114.3 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16716,7 +17038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 114.3 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16725,7 +17047,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 114.3 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16734,7 +17056,7 @@
 			)
 		)
 		(property "Farnell_num" "1516278"
-			(at 266.7 114.3 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16743,7 +17065,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 266.7 114.3 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16752,7 +17074,7 @@
 			)
 		)
 		(property "Manufacturer_num" "B4B-XH-A (LF)(SN)"
-			(at 266.7 114.3 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16761,7 +17083,7 @@
 			)
 		)
 		(property "remarks" "Same as J10 IR1"
-			(at 266.7 114.3 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16770,7 +17092,7 @@
 			)
 		)
 		(property "farnell_alternative" "3287574"
-			(at 266.7 114.3 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16779,7 +17101,7 @@
 			)
 		)
 		(property "LCSC" "C144395"
-			(at 266.7 114.3 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17416,7 +17738,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 172.72 171.45 0)
+		(at 142.24 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17425,7 +17747,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff3b282c-ae88-4f38-95bb-eeb8917df158")
 		(property "Reference" "H2"
-			(at 175.26 168.91 0)
+			(at 144.78 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17434,7 +17756,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 175.26 171.45 0)
+			(at 144.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17443,7 +17765,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 172.72 171.45 0)
+			(at 142.24 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17452,7 +17774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 171.45 0)
+			(at 142.24 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17461,7 +17783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 171.45 0)
+			(at 142.24 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
