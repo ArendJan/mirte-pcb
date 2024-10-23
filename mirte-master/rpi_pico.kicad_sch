@@ -2361,6 +2361,7 @@
 	)
 	(label "SCL"
 		(at 116.84 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2514,6 +2515,7 @@
 	)
 	(label "SDA"
 		(at 116.84 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
