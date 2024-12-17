@@ -5570,7 +5570,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.195 153.035) (xy 163.83 189.23)
+			(xy 163.83 153.035) (xy 163.83 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5650,7 +5650,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.83 190.5) (xy 123.19 190.5)
+			(xy 163.83 190.5) (xy 123.825 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +5810,7 @@
 	)
 	(polyline
 		(pts
-			(xy 125.095 153.035) (xy 163.195 153.035)
+			(xy 125.095 153.035) (xy 163.83 153.035)
 		)
 		(stroke
 			(width 0)
@@ -6980,7 +6980,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.19 189.23) (xy 123.19 190.5)
+			(xy 123.825 189.23) (xy 123.825 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7903,6 +7903,16 @@
 			(justify right bottom)
 		)
 		(uuid "fcff3a59-be96-4b87-9d69-01745b7f7891")
+	)
+	(text "USB B micro for Embedded Software course"
+		(exclude_from_sim no)
+		(at 260.35 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe092d42-1a14-4355-b942-4a4a8c90dab2")
 	)
 	(text "Encoder 1"
 		(exclude_from_sim no)
