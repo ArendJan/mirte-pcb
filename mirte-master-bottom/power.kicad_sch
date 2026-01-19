@@ -2845,6 +2845,126 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda:BZT52C18_C2932747"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52C18_C2932747"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:SOD-123_L2.7-W1.6-LS3.7-RD-2"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2932747"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BZT52C18_C2932747_0_1"
+				(polyline
+					(pts
+						(xy -1.52 -1.52) (xy -1.27 -1.02) (xy -1.27 1.02) (xy -1.02 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.52) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda:DSK310_C28646289"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3700,6 +3820,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12P"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12P"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12P\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12P_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12P_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -4243,13 +4488,23 @@
 	)
 	(text "Idea:\nOn power-on, no energy flowing anywhere\nSW1 starts the system\nQ3 switches the main power when U5 is on\n\nWhen the microcontroller wants to turn off the power, \nit switches PWR_IN_SIG to low, turnin off Q5, turning off Q3\n\nU5 stays flowing, when ref is 2.5V or higher\n10k chosen to allow 8.5V Vin, to allow MCU to shut off before we shut off.\n"
 		(exclude_from_sim no)
-		(at 488.188 28.194 0)
+		(at 504.952 -2.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "837da2e6-9a75-423f-88f2-4aaa1c9ec6b6")
+	)
+	(text "18V zener clamp"
+		(exclude_from_sim no)
+		(at 534.67 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85820e81-e388-4675-a550-fa884e5f7b8d")
 	)
 	(text "TODO: dit opnieuw routen, schema al beter nav layout example\n"
 		(exclude_from_sim no)
@@ -4390,10 +4645,22 @@
 		(uuid "2e8c75bb-2952-4980-8846-b0896d0f08b2")
 	)
 	(junction
+		(at 511.81 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33f816c1-5b7d-4ed7-8339-baff9a554009")
+	)
+	(junction
 		(at 104.14 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3541beaa-393d-40a4-91ca-400a7140f9ce")
+	)
+	(junction
+		(at 494.03 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d5cc92a-fb20-45dc-9c27-84db89721e2b")
 	)
 	(junction
 		(at 334.01 104.14)
@@ -4406,6 +4673,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54d13f47-9b47-4031-8aed-4e15fa1537b8")
+	)
+	(junction
+		(at 485.14 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b1b100c-3e16-4ea8-9b31-448ffc4995f8")
 	)
 	(junction
 		(at 355.6 15.24)
@@ -4436,6 +4709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81512559-d058-468c-a75e-734ad4333e25")
+	)
+	(junction
+		(at 524.51 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8375457a-5b7f-4dfc-95d1-58b845e26b09")
 	)
 	(junction
 		(at 107.95 113.03)
@@ -4671,6 +4950,16 @@
 	)
 	(wire
 		(pts
+			(xy 494.03 124.46) (xy 494.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ec0298-3e5f-4540-8352-1ee03cf614a0")
+	)
+	(wire
+		(pts
 			(xy 346.71 5.08) (xy 342.9 5.08)
 		)
 		(stroke
@@ -4708,6 +4997,16 @@
 			(type default)
 		)
 		(uuid "17c240c7-a844-44e3-a2b0-f3a7e1cf0a0a")
+	)
+	(wire
+		(pts
+			(xy 521.97 113.03) (xy 524.51 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2d709e-7481-4986-827f-5dc05a666157")
 	)
 	(wire
 		(pts
@@ -4791,6 +5090,16 @@
 	)
 	(wire
 		(pts
+			(xy 485.14 123.19) (xy 485.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27eef019-6a41-4772-a14f-3aa4285866a5")
+	)
+	(wire
+		(pts
 			(xy 71.12 127) (xy 71.12 124.46)
 		)
 		(stroke
@@ -4868,6 +5177,16 @@
 			(type default)
 		)
 		(uuid "34c8b076-3d60-4391-b0fc-6e13ecf21864")
+	)
+	(wire
+		(pts
+			(xy 494.03 137.16) (xy 494.03 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3534dc5d-a0cd-4f8c-a670-0d7a0b3d500f")
 	)
 	(wire
 		(pts
@@ -5041,6 +5360,16 @@
 	)
 	(wire
 		(pts
+			(xy 485.14 113.03) (xy 485.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bad428f-c34a-4ea4-9523-b507a4e07aaf")
+	)
+	(wire
+		(pts
 			(xy 91.44 129.54) (xy 91.44 133.35)
 		)
 		(stroke
@@ -5161,6 +5490,16 @@
 	)
 	(wire
 		(pts
+			(xy 492.76 137.16) (xy 494.03 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59376cc5-69fa-44f7-ad72-151cb349b41d")
+	)
+	(wire
+		(pts
 			(xy 358.14 109.22) (xy 364.49 109.22)
 		)
 		(stroke
@@ -5178,6 +5517,16 @@
 			(type default)
 		)
 		(uuid "5ca8aa4c-fd13-4619-af23-a97708f2cc21")
+	)
+	(wire
+		(pts
+			(xy 485.14 101.6) (xy 485.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4499c5-0dc9-41fe-983a-19cfb1206d74")
 	)
 	(wire
 		(pts
@@ -5288,6 +5637,16 @@
 			(type default)
 		)
 		(uuid "67534331-0146-4ef4-a99f-05fc1c513893")
+	)
+	(wire
+		(pts
+			(xy 494.03 125.73) (xy 494.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677bba54-8e51-4aeb-bb3d-011307748dca")
 	)
 	(wire
 		(pts
@@ -5551,6 +5910,16 @@
 	)
 	(wire
 		(pts
+			(xy 511.81 110.49) (xy 511.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ae3afa-4b4b-404a-8013-e08141565ca0")
+	)
+	(wire
+		(pts
 			(xy 80.01 114.3) (xy 80.01 119.38)
 		)
 		(stroke
@@ -5641,6 +6010,16 @@
 	)
 	(wire
 		(pts
+			(xy 524.51 113.03) (xy 529.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f81ba02-9fdb-417a-9a59-b76c797e6ff4")
+	)
+	(wire
+		(pts
 			(xy 49.53 40.64) (xy 49.53 45.72)
 		)
 		(stroke
@@ -5648,6 +6027,16 @@
 			(type default)
 		)
 		(uuid "a05bed80-5170-4374-994e-6fc65ef6d677")
+	)
+	(wire
+		(pts
+			(xy 485.14 124.46) (xy 494.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a149834f-273d-4b75-9429-01e86f09403b")
 	)
 	(wire
 		(pts
@@ -5688,6 +6077,16 @@
 			(type default)
 		)
 		(uuid "a52b2a18-b9ba-421b-b0b1-ee0cfa8cdd3e")
+	)
+	(wire
+		(pts
+			(xy 485.14 113.03) (xy 488.95 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fb6064-37fe-4d59-bee9-969a7018e6d6")
 	)
 	(wire
 		(pts
@@ -5981,6 +6380,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 113.03) (xy 511.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c792a324-009a-4c68-a8c2-280032ebed6b")
+	)
+	(wire
+		(pts
 			(xy 238.76 120.65) (xy 227.33 120.65)
 		)
 		(stroke
@@ -5988,6 +6397,16 @@
 			(type default)
 		)
 		(uuid "cbc499ea-92f1-44dd-9537-52126df0a6a4")
+	)
+	(wire
+		(pts
+			(xy 524.51 127) (xy 524.51 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf95bcc-f1c6-4721-8d4c-f45243a4be65")
 	)
 	(wire
 		(pts
@@ -6201,6 +6620,16 @@
 	)
 	(wire
 		(pts
+			(xy 511.81 113.03) (xy 511.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eace00f7-355a-4fa8-af9d-32c9848ce3c8")
+	)
+	(wire
+		(pts
 			(xy 224.79 38.1) (xy 224.79 35.56)
 		)
 		(stroke
@@ -6383,6 +6812,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{EMERGENCY_SW}"
+		(shape input)
+		(at 492.76 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5af6ab18-5a84-4d9e-9cdd-da7e5628eb9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 475.0188 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6807,6 +7258,80 @@
 			(project ""
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:SiA449DJ")
+		(at 494.03 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e3b03a7-d801-40ba-a02d-ca72dfe69e00")
+		(property "Reference" "Q5"
+			(at 494.03 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SiA483DJ"
+			(at 494.03 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
+			(at 492.125 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/62644/sia483dj.pdf"
+			(at 490.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6"
+			(at 494.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94bb90d1-3f39-46c7-af5a-09c78a06aa93")
+		)
+		(pin "1"
+			(uuid "bde151d2-96ad-405c-9a43-2dfcbe3b266d")
+		)
+		(pin "4"
+			(uuid "c8fd5dbc-c91d-4faf-9d9f-81b40bb0305a")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -7798,7 +8323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12P"
 			(at 179.07 34.29 0)
 			(effects
 				(font
@@ -7975,6 +8500,85 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:BZT52C18_C2932747")
+		(at 524.51 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38c97cba-cca1-4adc-8481-2cc3760ac935")
+		(property "Reference" "U9"
+			(at 527.05 116.7149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52C18_C2932747"
+			(at 527.05 119.2549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda:SOD-123_L2.7-W1.6-LS3.7-RD-2"
+			(at 516.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2932747"
+			(at 514.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ec75e18-63f8-4ddb-acbf-76563959f285")
+		)
+		(pin "2"
+			(uuid "3a3313bc-c9aa-4b3f-ad6c-f1e09acce112")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -9051,6 +9655,75 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 494.03 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a871498-0b78-4c00-bc04-e5b9bfd31bf2")
+		(property "Reference" "R56"
+			(at 496.57 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 496.57 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 495.808 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 494.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 494.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ded91017-576e-4792-9ea4-1c0cb32fca4a")
+		)
+		(pin "2"
+			(uuid "b1f98e75-4547-4a15-9133-dc4dc282c3e6")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -10587,6 +11260,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 485.14 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "994d7250-5ae8-4864-b832-0bdca9504782")
+		(property "Reference" "R55"
+			(at 487.68 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12k"
+			(at 487.68 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 486.918 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 485.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 485.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef7ec2d2-c904-470d-b86c-4155312a58fb")
+		)
+		(pin "2"
+			(uuid "b5d498d5-ec4a-46e6-8a2a-825ba8f54472")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 524.51 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bc641a8-29fb-48c7-8fdc-004ec011ea9d")
+		(property "Reference" "#PWR0116"
+			(at 524.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 524.51 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 524.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cdb4530-81f4-404d-9c3f-8795c1af9bcb")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 104.14 111.76 0)
 		(unit 1)
@@ -11056,6 +11865,86 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:SB2080L_C41424807")
+		(at 516.89 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b373a2dd-ac30-40a1-8254-a5a3dc2857b4")
+		(property "Reference" "D6"
+			(at 516.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB2080L_C41424807"
+			(at 516.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda:TO-277B-3_L5.4-W4.1-P1.85-LS6.5-TR"
+			(at 516.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 516.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 516.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C41424807"
+			(at 516.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fc053fc-31d4-4261-b023-acbddf40f113")
+		)
+		(pin "3"
+			(uuid "7ead1d81-2697-4ab8-b5a4-4763c9fe4527")
+		)
+		(pin "1"
+			(uuid "105770cc-14f5-45ee-a857-7066233099b8")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 214.63 123.19 0)
 		(unit 1)
@@ -11433,7 +12322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12P"
 			(at 49.53 35.56 0)
 			(effects
 				(font
@@ -11616,6 +12505,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 485.14 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c288e17c-d0ff-4b4c-b454-2ef4d1dfd037")
+		(property "Reference" "#PWR0114"
+			(at 485.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 485.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 485.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 485.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 485.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "882a0b29-f020-43d7-b27e-64b4b589eb10")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 346.71 26.67 0)
 		(unit 1)
@@ -11758,6 +12713,72 @@
 			(project ""
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12P")
+		(at 529.59 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccd87992-88d3-4792-9e40-aeeb385e435a")
+		(property "Reference" "#PWR0115"
+			(at 529.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12P"
+			(at 529.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 529.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12P\""
+			(at 529.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bde3668-a178-41d3-8c17-d89e90f54d51")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)

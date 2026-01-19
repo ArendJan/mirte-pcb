@@ -3130,7 +3130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12P"
 			(at 78.74 80.01 0)
 			(effects
 				(font

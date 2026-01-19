@@ -7423,16 +7423,6 @@
 		)
 		(uuid "af18c1b9-8702-4da9-9165-d1c27e58a164")
 	)
-	(label "~{EMERGENCY_SW}"
-		(at 48.26 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1ba05a8-ee44-4ee0-9099-069c558bbd80")
-	)
 	(label "SDA"
 		(at 134.62 181.61 0)
 		(effects
@@ -7782,6 +7772,28 @@
 			(justify right bottom)
 		)
 		(uuid "ffb2349c-b53b-4f13-b5f8-d225b4175dbf")
+	)
+	(global_label "~{EMERGENCY_SW}"
+		(shape input)
+		(at 48.26 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0378bc27-1c24-42eb-bbbe-5390e175abde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.0012 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VSYS"
 		(shape input)
