@@ -2590,6 +2590,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5218850"
+			(at 58.166 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9f48fb77-c4ac-462d-b192-c9853b27f52c")
 		)
@@ -3046,7 +3055,7 @@
 				)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "10k"
 			(at 179.07 68.58 90)
 			(effects
 				(font
@@ -3074,6 +3083,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +3144,7 @@
 				)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "10k"
 			(at 179.07 74.93 90)
 			(effects
 				(font
@@ -3154,6 +3172,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 179.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 179.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,6 +3263,15 @@
 		)
 		(property "Description" ""
 			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131342"
+			(at 138.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,6 +3384,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 82.55 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,6 +3560,15 @@
 		)
 		(property "LCSC Part" "C965839"
 			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965839"
+			(at 164.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,6 +3838,15 @@
 		)
 		(property "LCSC Part" "C880909"
 			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C880909"
+			(at 104.14 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8949,6 +8949,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2897383"
+			(at 481.965 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "5443928a-0aea-4be4-8ab5-5170a28f26cd")
 		)
@@ -9139,6 +9148,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2897383"
+			(at 389.89 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "21e5dcb2-142e-4500-a1c1-c0ea17d963fa")
 		)
@@ -9322,6 +9340,15 @@
 		)
 		(property "Description" ""
 			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965815"
+			(at 166.37 141.2875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10083,6 +10110,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17673"
+			(at 35.56 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f291e1a7-389b-4374-9370-a4091288996b")
 		)
@@ -10417,6 +10453,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17673"
+			(at 110.49 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3cf8ad21-e78a-44a8-860d-a817a3df4ab0")
 		)
@@ -10480,6 +10525,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 101.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17673"
+			(at 99.06 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,6 +10947,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 25.4 50.1651 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a09536bd-3cbc-4d78-bb1a-7cd1e53bfa7e")
 		)
@@ -11058,7 +11121,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "1k2"
 			(at 165.1 132.0799 0)
 			(effects
 				(font
@@ -11087,6 +11150,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 162.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17379"
+			(at 165.1 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11203,7 +11275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -11223,6 +11295,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 69.85 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
