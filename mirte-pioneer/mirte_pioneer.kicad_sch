@@ -11560,7 +11560,7 @@
 			(uuid "a3f5027d-37aa-4f8c-bcb3-be39c26a347c")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R3")
 					(unit 1)
@@ -11690,7 +11690,7 @@
 			(uuid "63075474-d5f5-4cd6-9b75-cf2872861808")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J30")
 					(unit 1)
@@ -11754,7 +11754,7 @@
 			)
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "H1")
 					(unit 1)
@@ -11879,7 +11879,7 @@
 			(uuid "5ad09b6b-6cab-41a1-a6b2-569257a695d6")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J27")
 					(unit 1)
@@ -12003,7 +12003,7 @@
 			(uuid "9ae9dee2-5114-4079-9534-cb6ecdd7968c")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R11")
 					(unit 1)
@@ -12215,7 +12215,7 @@
 			(uuid "03429319-aa80-4d01-83af-307ca52acfe5")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R8")
 					(unit 1)
@@ -12393,7 +12393,7 @@
 			(uuid "93289311-ed49-47af-abfe-7910d7ba6d03")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J2")
 					(unit 1)
@@ -12523,7 +12523,7 @@
 			(uuid "6a161d82-bd4a-4145-8c8e-aefe6d9b4a75")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J25")
 					(unit 1)
@@ -12605,7 +12605,7 @@
 			(uuid "422c3f47-0287-4c21-b5c3-0a0910103458")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J5")
 					(unit 1)
@@ -12730,7 +12730,7 @@
 			(uuid "e89a62d5-5ccb-4cb0-b345-4f0f412bf7b4")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J19")
 					(unit 1)
@@ -12855,7 +12855,7 @@
 			(uuid "a856ab20-2c43-4700-ad3d-a2c327652cd2")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J12")
 					(unit 1)
@@ -12931,7 +12931,7 @@
 			(uuid "0f5c50c7-7a70-42d0-8554-caf52fc9b766")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "#J32")
 					(unit 1)
@@ -13064,7 +13064,7 @@
 			(uuid "9eab52e9-067f-443a-8c5d-273fc32a098e")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J35")
 					(unit 1)
@@ -13194,7 +13194,7 @@
 			(uuid "fbb10975-91e3-4805-923a-1540b9753d24")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J23")
 					(unit 1)
@@ -13257,6 +13257,15 @@
 		)
 		(property "LCSC Part" "C668623"
 			(at 265.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C668623"
+			(at 265.43 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13411,7 +13420,7 @@
 			(uuid "62b6f78e-6902-466d-ae5c-d4f866f5e226")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J26")
 					(unit 1)
@@ -13542,7 +13551,7 @@
 			(uuid "35192015-96d0-409f-84a5-e8f2ed6aec69")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J33")
 					(unit 1)
@@ -13664,7 +13673,7 @@
 			(uuid "dc1f2935-0ab7-4917-bcc7-0d6869e41013")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R10")
 					(unit 1)
@@ -13720,6 +13729,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27834"
+			(at 231.14 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13911,7 +13929,7 @@
 			(uuid "4f6aea94-b440-4360-a703-24d161490dfb")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J4")
 					(unit 1)
@@ -14036,7 +14054,7 @@
 			(uuid "d17155e0-dd5b-4cd0-999a-d1476cd18bf2")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J9")
 					(unit 1)
@@ -14158,7 +14176,7 @@
 			(uuid "c6633029-00a9-466f-9bf8-5b8144a1cca5")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R5")
 					(unit 1)
@@ -14225,7 +14243,7 @@
 			(uuid "65b49726-0052-402b-b08d-d9b3cc279cf6")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "H3")
 					(unit 1)
@@ -14355,7 +14373,7 @@
 			(uuid "1bfa7280-acad-4060-841d-fdd33f6cf6da")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J20")
 					(unit 1)
@@ -14491,7 +14509,7 @@
 			(uuid "4e3eb33f-1ee9-4553-8639-d0411631b79b")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J18")
 					(unit 1)
@@ -14616,7 +14634,7 @@
 			(uuid "ccd8bf49-6e70-454c-862c-bc4aec921e48")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J7")
 					(unit 1)
@@ -14737,7 +14755,7 @@
 			(uuid "ddefcdd7-3e71-4e43-90cd-1c3b2d20175e")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R2")
 					(unit 1)
@@ -14885,7 +14903,7 @@
 			(uuid "0789f044-bb3a-4df0-a8aa-a90fc2d3686e")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "U2")
 					(unit 1)
@@ -15010,7 +15028,7 @@
 			(uuid "c1df991e-c5d1-46ec-857b-0a5cc5110cba")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J21")
 					(unit 1)
@@ -15134,7 +15152,7 @@
 			(uuid "7171a17e-f3f0-4ae2-8dd2-889a359fae94")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R6")
 					(unit 1)
@@ -15264,7 +15282,7 @@
 			(uuid "6fb8d0f7-1eed-4dc7-b48c-60d6c233b41a")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "Q1")
 					(unit 1)
@@ -15392,7 +15410,7 @@
 			(uuid "f61f71a9-b110-4c88-a56e-5253626e77e8")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J10")
 					(unit 1)
@@ -15516,7 +15534,7 @@
 			(uuid "412169e9-5c56-4a5f-a804-7bed343e99f7")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R4")
 					(unit 1)
@@ -15644,7 +15662,7 @@
 			(uuid "dca16034-6ceb-42d8-88c5-eb109a81bcb4")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J14")
 					(unit 1)
@@ -15720,7 +15738,7 @@
 			(uuid "ffb41401-54fa-41e7-93e5-c811806ac65a")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "#J5")
 					(unit 1)
@@ -15849,7 +15867,7 @@
 			(uuid "890ce4ec-b6ee-4292-b727-b3966c84032b")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "Q2")
 					(unit 1)
@@ -15971,7 +15989,7 @@
 			(uuid "1e1df5f8-51e9-483c-bc94-8f7493ed760a")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R7")
 					(unit 1)
@@ -16107,7 +16125,7 @@
 			(uuid "6668793e-ad8d-45cf-b30a-df9648755cac")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J17")
 					(unit 1)
@@ -16183,7 +16201,7 @@
 			(uuid "707b81f2-e5b6-4810-8274-b7bbf4440229")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "#J6")
 					(unit 1)
@@ -16246,6 +16264,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C27834"
+			(at 238.76 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ae7453a-1511-4f0b-82dd-244c614a08d8")
 		)
@@ -16253,7 +16280,7 @@
 			(uuid "5b50fe1b-93ae-446c-9526-01d71bc75da2")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R12")
 					(unit 1)
@@ -16378,7 +16405,7 @@
 			(uuid "6e8efd11-b9dc-41d9-8657-b2eccb60877e")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J3")
 					(unit 1)
@@ -16508,7 +16535,7 @@
 			(uuid "ff8c2f7d-2e97-4190-9977-b8e146b7345a")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J28")
 					(unit 1)
@@ -16643,7 +16670,7 @@
 			(uuid "c3489346-b063-4862-a11f-6da4309e6bb4")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J8")
 					(unit 1)
@@ -16773,7 +16800,7 @@
 			(uuid "179cca1e-bcc0-4ef7-8c29-3fe5677df841")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J24")
 					(unit 1)
@@ -16884,7 +16911,7 @@
 			(uuid "1e831816-7f35-42b8-b93f-247d28557b5c")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J11")
 					(unit 1)
@@ -17009,7 +17036,7 @@
 			(uuid "417f6501-966d-4f67-bf1b-f4a29e75e3cb")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J37")
 					(unit 1)
@@ -17132,7 +17159,7 @@
 			(uuid "73d6eb3a-d918-4546-af6d-0eb5cc490654")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "C1")
 					(unit 1)
@@ -17254,7 +17281,7 @@
 			(uuid "02344487-6282-4e3e-8740-6c61f804b858")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "R9")
 					(unit 1)
@@ -17379,7 +17406,7 @@
 			(uuid "9ed03c56-234d-49ae-9437-1e3c9ca24b65")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J1")
 					(unit 1)
@@ -17446,7 +17473,7 @@
 			(uuid "71cd2377-a191-4c65-b3f7-1cbc1ade37a8")
 		)
 		(instances
-			(project "mirte_combination"
+			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "H2")
 					(unit 1)
