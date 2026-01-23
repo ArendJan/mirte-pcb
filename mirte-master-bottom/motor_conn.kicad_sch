@@ -969,28 +969,10 @@
 		(uuid "e63d267c-6a31-472f-ae13-161e1867fa91")
 	)
 	(junction
-		(at 149.86 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1038d1af-e9f9-4b45-9b73-246ff43688cb")
-	)
-	(junction
-		(at 149.86 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "224ddc1a-3692-4fae-a759-d1bc8d2ed58a")
-	)
-	(junction
 		(at 53.34 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d9de102-0467-4eb2-98e4-afb2dd7fe2ce")
-	)
-	(junction
-		(at 149.86 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4553060c-7112-4fa7-ac04-836c34f2c3c4")
 	)
 	(junction
 		(at 50.8 161.29)
@@ -1230,17 +1212,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 149.86 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "013dafa3-4380-4631-94aa-ae922f8fb7a3")
-	)
-	(wire
-		(pts
 			(xy 111.76 60.96) (xy 128.27 60.96)
 		)
 		(stroke
@@ -1311,17 +1282,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 149.86 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "19b28c68-6911-4749-ba9f-4f039808e281")
-	)
-	(wire
-		(pts
 			(xy 176.53 58.42) (xy 191.77 58.42)
 		)
 		(stroke
@@ -1359,17 +1319,6 @@
 			(type default)
 		)
 		(uuid "24610199-f814-447a-97b6-0a38c7afab1d")
-	)
-	(wire
-		(pts
-			(xy 149.86 105.41) (xy 153.67 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "25e43235-2f2d-4412-9a00-40f28452fd42")
 	)
 	(wire
 		(pts
@@ -1691,17 +1640,6 @@
 		)
 		(uuid "6ad5f6eb-d9c2-4074-ad24-bcc7a152cbec")
 	)
-	(wire
-		(pts
-			(xy 142.24 120.65) (xy 149.86 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "6be5a4db-a454-406a-a9bf-f794e0e8040f")
-	)
 	(bus
 		(pts
 			(xy 109.22 66.04) (xy 109.22 68.58)
@@ -1894,17 +1832,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 74.93) (xy 149.86 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "a649de97-ee2c-4f81-b3ce-3f9e2f7d1825")
-	)
-	(wire
-		(pts
 			(xy 208.28 78.74) (xy 201.93 78.74)
 		)
 		(stroke
@@ -1912,28 +1839,6 @@
 			(type default)
 		)
 		(uuid "a99d3aa6-2806-4f81-a34c-e310e4516337")
-	)
-	(wire
-		(pts
-			(xy 149.86 90.17) (xy 149.86 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "b0c12c3a-ede9-4d15-b2a5-220c55e54847")
-	)
-	(wire
-		(pts
-			(xy 149.86 90.17) (xy 153.67 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "b2236d59-524c-4a2b-b041-99fb04de0fef")
 	)
 	(wire
 		(pts
@@ -2117,17 +2022,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 60.96) (xy 149.86 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d8f41640-623d-49d0-8056-d78b4137eef2")
-	)
-	(wire
-		(pts
 			(xy 194.31 85.09) (xy 194.31 71.12)
 		)
 		(stroke
@@ -2185,17 +2079,6 @@
 			(type default)
 		)
 		(uuid "e3e91729-6682-4e2c-90e1-62c08865d8c5")
-	)
-	(wire
-		(pts
-			(xy 149.86 74.93) (xy 153.67 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "edd32365-51eb-4035-a153-6941d95f65ec")
 	)
 	(wire
 		(pts
@@ -2462,17 +2345,6 @@
 			(justify right)
 		)
 		(uuid "7976cbeb-8e57-4783-af1d-9c11212b874e")
-	)
-	(hierarchical_label "~{EMERGENCY_SW}"
-		(shape input)
-		(at 142.24 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd47c6f3-3e82-46d8-a987-9195ce1afcdb")
 	)
 	(symbol
 		(lib_id "Driver_LED:PCA9685PW")
@@ -3381,16 +3253,6 @@
 				(justify right)
 			)
 		)
-		(pin "~{EMERGENCY_SW}" input
-			(at 153.67 105.41 180)
-			(uuid "9602e88f-e5e2-4dbd-abfe-5fa892e209ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "mirte-master"
 				(path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/72daa4de-5ab9-4c91-b726-f74d862f9902"
@@ -3476,16 +3338,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "~{EMERGENCY_SW}" input
-			(at 153.67 60.96 180)
-			(uuid "d730ea2d-5f57-4250-93eb-084b52bbfac4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
@@ -3575,16 +3427,6 @@
 				(justify right)
 			)
 		)
-		(pin "~{EMERGENCY_SW}" input
-			(at 153.67 74.93 180)
-			(uuid "98618a4e-4f9b-4e0b-a85d-130e24dee7d6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "mirte-master"
 				(path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/72daa4de-5ab9-4c91-b726-f74d862f9902"
@@ -3670,16 +3512,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "~{EMERGENCY_SW}" input
-			(at 153.67 90.17 180)
-			(uuid "c84376a6-f096-4e7b-883d-23141c76024d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

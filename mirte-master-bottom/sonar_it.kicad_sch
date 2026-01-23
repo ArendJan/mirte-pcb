@@ -733,6 +733,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8c3d49-18e0-47ee-a0e5-828194f3709c")
+	)
+	(wire
+		(pts
 			(xy 138.43 92.71) (xy 138.43 80.01)
 		)
 		(stroke
@@ -743,7 +753,7 @@
 	)
 	(hierarchical_label "ECHO"
 		(shape input)
-		(at 125.73 88.9 180)
+		(at 123.19 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
