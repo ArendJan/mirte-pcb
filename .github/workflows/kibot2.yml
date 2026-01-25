@@ -24,11 +24,10 @@ jobs:
         # working-directory: mirte-master
 
     steps:
-    # - run: ls
-    # - run: cd mirte-master
     - if: matrix.project == 'mirte-pioneer'
       run: |
-        echo "SCH_NAME=mirte_combination" >> $GITHUB_ENV
+        # the other projects use the exact same name for folder and files
+        echo "SCH_NAME=mirte_pioneer" >> $GITHUB_ENV
     - if: matrix.project != 'mirte-pioneer'
       run: |
         echo "SCH_NAME=${{ matrix.project }}" >> $GITHUB_ENV
