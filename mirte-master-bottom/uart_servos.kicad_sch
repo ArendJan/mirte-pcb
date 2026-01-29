@@ -1764,6 +1764,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 47.244 16.764)
+		(end 84.074 66.294)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a36e5501-9840-4f02-8c61-62b2854beffc)
+	)
 	(text "TX and RX are connected here as the servos have a single pin for both."
 		(exclude_from_sim no)
 		(at 182.626 38.862 0)
@@ -1785,9 +1797,19 @@
 		)
 		(uuid "4b34aa22-7e1d-43b1-9483-c0ac49fa9be5")
 	)
+	(text "12V after emergency sw & diode, 5V not"
+		(exclude_from_sim no)
+		(at 54.864 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8207369-6c29-4b87-b1dc-2f55276726b1")
+	)
 	(text "EM_SW is low when okay, floating/high when not okay"
 		(exclude_from_sim no)
-		(at 135.636 115.062 0)
+		(at 73.406 58.674 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1797,7 +1819,7 @@
 	)
 	(text "2A hold current, 4 trip"
 		(exclude_from_sim no)
-		(at 70.358 71.882 0)
+		(at 105.918 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1806,7 +1828,7 @@
 		(uuid "d687baa8-0d99-4c43-aed1-37c38375d3de")
 	)
 	(junction
-		(at 123.19 99.06)
+		(at 64.77 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0805db49-fed9-421f-9cdf-ac9eb80ab06a")
@@ -1822,12 +1844,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9931f6a4-f5b0-464e-b5a9-f0aa813b3035")
-	)
-	(junction
-		(at 114.3 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a81d83c5-f444-47ff-8404-a4cafb38e1a9")
 	)
 	(junction
 		(at 92.71 87.63)
@@ -1911,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 123.19 99.06)
+			(xy 55.88 43.18) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 87.63) (xy 114.3 87.63)
+			(xy 92.71 87.63) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2059,16 +2075,6 @@
 		)
 		(uuid "5e9164b5-3550-402a-ab41-80a1c461e132")
 	)
-	(wire
-		(pts
-			(xy 128.27 87.63) (xy 166.37 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650297f5-50a6-47a0-8655-72d73e58bcc6")
-	)
 	(bus
 		(pts
 			(xy 156.21 77.47) (xy 156.21 78.74)
@@ -2091,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 97.79) (xy 114.3 99.06)
+			(xy 55.88 41.91) (xy 55.88 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2131,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 123.19 99.06)
+			(xy 64.77 44.45) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2151,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 123.19 111.76)
+			(xy 63.5 55.88) (xy 64.77 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 87.63) (xy 118.11 87.63)
+			(xy 55.88 31.75) (xy 59.69 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 99.06) (xy 123.19 95.25)
+			(xy 64.77 43.18) (xy 64.77 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2271,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 111.76) (xy 123.19 107.95)
+			(xy 64.77 55.88) (xy 64.77 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 87.63) (xy 114.3 90.17)
+			(xy 55.88 31.75) (xy 55.88 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2382,7 +2388,7 @@
 	)
 	(hierarchical_label "~{EMERGENCY_SW}"
 		(shape input)
-		(at 121.92 111.76 180)
+		(at 68.58 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2390,6 +2396,21 @@
 			(justify right)
 		)
 		(uuid "cc3084a8-b568-465c-986d-a73c94cfd829")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 106.68 34.29) (xy 137.16 34.29) (xy 137.16 80.01) (xy 106.68 80.01)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8893b2d9-5cf7-4c22-8d72-fcf8927cfd69)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2541,16 +2562,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 93.98 180)
+		(at 55.88 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "22cd59ae-9ec6-4367-9bda-78003fe6f912")
 		(property "Reference" "R40"
-			(at 116.84 92.7099 0)
+			(at 58.42 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2580,7 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 116.84 95.2499 0)
+			(at 58.42 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2589,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 116.078 93.98 90)
+			(at 57.658 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 93.98 0)
+			(at 55.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2607,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 93.98 0)
+			(at 55.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +2616,7 @@
 			)
 		)
 		(property "LCSC" "C17444"
-			(at 116.84 92.7099 0)
+			(at 58.42 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,16 +2641,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:SiA449DJ")
-		(at 123.19 90.17 270)
+		(at 64.77 34.29 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "236c9194-34a1-46db-8940-77472bb1730c")
 		(property "Reference" "Q4"
-			(at 123.19 81.28 90)
+			(at 64.77 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2658,7 @@
 			)
 		)
 		(property "Value" "SiA483DJ"
-			(at 123.19 83.82 90)
+			(at 64.77 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2666,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
-			(at 121.285 85.09 0)
+			(at 62.865 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2677,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/62644/sia483dj.pdf"
-			(at 119.38 85.09 0)
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2687,7 @@
 			)
 		)
 		(property "Description" "-12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6"
-			(at 123.19 90.17 0)
+			(at 64.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2696,7 @@
 			)
 		)
 		(property "LCSC" "C145467"
-			(at 123.19 81.28 0)
+			(at 64.77 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,15 +3101,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 104.14 180)
+		(at 64.77 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "765b30c6-518d-4f66-ab41-af739a7a70bd")
 		(property "Reference" "R41"
-			(at 125.73 102.8699 0)
+			(at 67.31 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3118,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 125.73 105.4099 0)
+			(at 67.31 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3127,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 124.968 104.14 90)
+			(at 66.548 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,7 +3136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 104.14 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +3145,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 104.14 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3154,7 @@
 			)
 		)
 		(property "LCSC" "C17513"
-			(at 125.73 102.8699 0)
+			(at 67.31 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
