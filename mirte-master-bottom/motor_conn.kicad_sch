@@ -1472,6 +1472,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 102.87) (xy 201.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493f136d-6e0f-444a-81cc-96f361b1fb03")
+	)
+	(wire
+		(pts
 			(xy 43.18 161.29) (xy 43.18 160.02)
 		)
 		(stroke
@@ -1502,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 76.2) (xy 208.28 76.2)
+			(xy 200.406 76.2) (xy 208.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1712,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 100.33) (xy 199.39 100.33)
+			(xy 176.53 100.33) (xy 200.406 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 100.33) (xy 199.39 76.2)
+			(xy 200.406 100.33) (xy 200.406 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1989,16 +1999,6 @@
 			(type default)
 		)
 		(uuid "cad6275e-ad00-4210-a04a-98f0e8714bb0")
-	)
-	(wire
-		(pts
-			(xy 201.93 102.87) (xy 176.53 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0b059eb-1b71-47fe-88d9-bd7cf69e448a")
 	)
 	(wire
 		(pts
@@ -2221,7 +2221,7 @@
 		(uuid "8129c086-b51d-44f1-9f1e-696195f898fb")
 	)
 	(label "A1"
-		(at 189.23 100.33 0)
+		(at 190.246 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3181,7 +3181,7 @@
 	)
 	(sheet
 		(at 153.67 97.79)
-		(size 22.86 9.525)
+		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3204,8 +3204,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "motor_connector.kicad_sch"
-			(at 153.67 107.8996 0)
+		(property "Sheetfile" "motor_connector_other_side.kicad_sch"
+			(at 153.67 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,8 +3441,8 @@
 		)
 	)
 	(sheet
-		(at 153.67 82.55)
-		(size 22.86 10.16)
+		(at 153.67 82.296)
+		(size 22.86 7.112)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3457,7 +3457,7 @@
 		)
 		(uuid "dae2003b-f49b-4b92-8a77-b6951156073a")
 		(property "Sheetname" "motor_connector2"
-			(at 153.67 81.8384 0)
+			(at 153.67 81.5844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,8 +3465,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "motor_connector.kicad_sch"
-			(at 153.67 93.2946 0)
+		(property "Sheetfile" "motor_connector_other_side.kicad_sch"
+			(at 153.67 89.9926 0)
 			(effects
 				(font
 					(size 1.27 1.27)

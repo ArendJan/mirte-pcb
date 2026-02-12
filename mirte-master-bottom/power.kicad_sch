@@ -2965,6 +2965,124 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda:DB125-2.54-2P-GN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DB125-2.54-2P-GN"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:CONN-TH_DB125-2.54-2P-GN"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C918120"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DB125-2.54-2P-GN_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda:DSK310_C28646289"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4579,12 +4697,6 @@
 		(uuid "03d335a8-741a-47f9-baa8-eefd4d7c4fba")
 	)
 	(junction
-		(at 367.03 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0435f1bc-29f9-4535-a370-e4d287cb714f")
-	)
-	(junction
 		(at 346.71 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4603,10 +4715,10 @@
 		(uuid "0c5fb06d-6281-464f-914a-7b98d3bc6bc5")
 	)
 	(junction
-		(at 353.06 76.2)
+		(at 367.03 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f1cf3e9-795d-40d9-a39c-e32fbae7aefd")
+		(uuid "0e930257-3061-4fc7-a317-3777ba1bf35b")
 	)
 	(junction
 		(at 80.01 111.76)
@@ -4691,6 +4803,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ee37b5c-4117-4349-a181-ae9e42992a5b")
+	)
+	(junction
+		(at 358.14 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7256ee60-a7c5-471b-82ec-dcde1db6608f")
 	)
 	(junction
 		(at 71.12 135.89)
@@ -4860,7 +4978,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 76.2) (xy 353.06 76.2)
+			(xy 341.63 76.2) (xy 358.14 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5030,16 +5148,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 66.04) (xy 367.03 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2237fb3d-cb23-4712-9327-c6e9cd06a401")
-	)
-	(wire
-		(pts
 			(xy 354.33 54.61) (xy 354.33 60.96)
 		)
 		(stroke
@@ -5047,16 +5155,6 @@
 			(type default)
 		)
 		(uuid "2375df65-5979-4c9f-a279-f02f9308eca1")
-	)
-	(wire
-		(pts
-			(xy 353.06 76.2) (xy 353.06 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "239057c3-8ade-4847-9371-0cc6d649055d")
 	)
 	(wire
 		(pts
@@ -5087,6 +5185,16 @@
 			(type default)
 		)
 		(uuid "27eef019-6a41-4772-a14f-3aa4285866a5")
+	)
+	(wire
+		(pts
+			(xy 367.03 76.2) (xy 358.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c44721-7334-4ac8-b78b-18179e7e60df")
 	)
 	(wire
 		(pts
@@ -5177,6 +5285,16 @@
 			(type default)
 		)
 		(uuid "3534dc5d-a0cd-4f8c-a670-0d7a0b3d500f")
+	)
+	(wire
+		(pts
+			(xy 367.03 58.42) (xy 367.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3582d4ec-e08b-4778-82ed-2b8920dccb45")
 	)
 	(wire
 		(pts
@@ -5430,6 +5548,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 30.48) (xy 322.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5480d948-c041-4e7d-b712-d9b83281117a")
+	)
+	(wire
+		(pts
 			(xy 219.71 38.1) (xy 224.79 38.1)
 		)
 		(stroke
@@ -5650,6 +5778,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 35.56) (xy 326.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a27b14a-710a-48b5-bb5d-e716b3628f7c")
+	)
+	(wire
+		(pts
 			(xy 360.68 2.54) (xy 360.68 5.08)
 		)
 		(stroke
@@ -5827,16 +5965,6 @@
 			(type default)
 		)
 		(uuid "82554529-211a-46df-9cf5-f24aea202cf6")
-	)
-	(wire
-		(pts
-			(xy 367.03 66.04) (xy 367.03 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "857c5ab5-662e-4571-ac05-7066838372e9")
 	)
 	(wire
 		(pts
@@ -6210,16 +6338,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 58.42) (xy 372.11 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bae929c9-7b1b-4a4c-9f57-92969d8e1c8e")
-	)
-	(wire
-		(pts
 			(xy 346.71 104.14) (xy 334.01 104.14)
 		)
 		(stroke
@@ -6260,6 +6378,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 76.2) (xy 367.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe034b9-8ca3-495f-bc82-80681229c912")
+	)
+	(wire
+		(pts
 			(xy 342.9 182.88) (xy 340.36 182.88)
 		)
 		(stroke
@@ -6287,6 +6415,16 @@
 			(type default)
 		)
 		(uuid "c092285a-7afc-4d51-b113-fe1df348230e")
+	)
+	(wire
+		(pts
+			(xy 322.58 33.02) (xy 326.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22ef3f8-744b-4c2f-9c52-7242d55f622b")
 	)
 	(wire
 		(pts
@@ -6347,6 +6485,16 @@
 			(type default)
 		)
 		(uuid "c75a3e76-1568-421b-88b1-879c3585ac18")
+	)
+	(wire
+		(pts
+			(xy 322.58 36.83) (xy 322.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75dcb8e-d0e1-4874-aba2-944284f1cf8e")
 	)
 	(wire
 		(pts
@@ -6537,16 +6685,6 @@
 			(type default)
 		)
 		(uuid "e32bf664-11ce-44d1-8457-f58b745f4829")
-	)
-	(wire
-		(pts
-			(xy 353.06 76.2) (xy 358.14 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e377bf5f-437d-4300-a90a-126a6cc530d3")
 	)
 	(wire
 		(pts
@@ -6866,7 +7004,7 @@
 	)
 	(global_label "VIN_SWITCHED"
 		(shape input)
-		(at 355.6 76.2 0)
+		(at 379.73 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6876,29 +7014,7 @@
 		)
 		(uuid "a980fa3e-2333-43cd-b434-3d408fae8c1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.8295 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN_SWITCHED"
-		(shape input)
-		(at 372.11 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce5b47e8-a814-4524-bc1f-c8c55e0f2aaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.3395 58.42 0)
+			(at 395.9595 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8828,6 +8944,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 322.58 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eea452d-ad39-4a8e-bad8-3fc3059f6458")
+		(property "Reference" "#PWR0130"
+			(at 322.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23418330-2f2d-486a-9d98-6aaa86c630e1")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 227.33 124.46 0)
 		(unit 1)
@@ -9882,6 +10064,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 322.58 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bfefb8e-0dde-42ae-8866-9830e420dcf3")
+		(property "Reference" "#PWR0129"
+			(at 322.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 322.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 322.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b428ab9-9f05-4963-a984-0617a84bc329")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 50.8 0)
 		(unit 1)
@@ -10392,7 +10640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda:mini560"
+		(property "Footprint" "easyeda:mini560+"
 			(at 151.13 152.4 0)
 			(effects
 				(font
@@ -12750,6 +12998,85 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:DB125-2.54-2P-GN")
+		(at 331.47 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c73f372a-6d7e-4a17-a0ea-2ad8dde2deed")
+		(property "Reference" "U10"
+			(at 335.28 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB125-2.54-2P-GN"
+			(at 335.28 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda:CONN-TH_DB125-2.54-2P-GN"
+			(at 331.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C918120"
+			(at 331.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b586562-764e-4d03-b564-cb5ced973174")
+		)
+		(pin "1"
+			(uuid "25b2ec7f-e15d-477a-94cc-03b364e1d5bc")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "U10")
 					(unit 1)
 				)
 			)
