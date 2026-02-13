@@ -4097,6 +4097,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda:BAT54SLT1G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT54SLT1G"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON_BAT54SLT1G_BAT54SLT1G_C19726.html"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C19726"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT54SLT1G_0_1"
+				(polyline
+					(pts
+						(xy -6.35 -0.25) (xy -3.81 1.27) (xy -6.35 3.05) (xy -6.35 -0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.56 1.27) (xy 3.56 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.05 -0.25) (xy -3.05 -0.51) (xy -3.56 -0.51) (xy -3.56 3.3) (xy -4.06 3.3) (xy -4.06 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.56 -0.25) (xy 6.1 1.27) (xy 3.56 3.05) (xy 3.56 -0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.6 -0.25) (xy 6.6 -0.51) (xy 6.1 -0.51) (xy 6.1 3.05) (xy 5.59 3.05) (xy 5.59 2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -3.81 90)
+					(length 5.08)
+					(name "A/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda:DB125-2.54-2P-GN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4205,6 +4379,251 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda:DSK310_C28646289"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DSK310_C28646289"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:SOD-123FL_L2.8-W1.9-LS3.7-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C28646289"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DSK310_C28646289_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.52) (xy -1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.52) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12P"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12P"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12P\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12P_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12P_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4768,6 +5187,12 @@
 		(uuid "ee9079d6-6ae9-474d-a229-81884c90ed55")
 	)
 	(junction
+		(at 162.56 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06eeaa9a-4717-44f5-ba39-92cdca1ba296")
+	)
+	(junction
 		(at 30.48 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4778,6 +5203,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4153149e-2d5c-4ff0-97df-1f1ae133a217")
+	)
+	(junction
+		(at 123.19 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47018d85-04ec-44d2-8cb0-e66818a13faf")
 	)
 	(junction
 		(at 71.12 137.16)
@@ -4798,6 +5229,12 @@
 		(uuid "4e3d9a12-92a5-436a-8e5e-96f3ec291dea")
 	)
 	(junction
+		(at 118.11 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6300364e-82af-47e9-95f9-9dbd40595e97")
+	)
+	(junction
 		(at 473.71 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4814,6 +5251,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "928e261a-2f74-4183-9e84-b5b591f4d97e")
+	)
+	(junction
+		(at 132.08 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9960f286-dc6f-4032-87df-fe6f61149401")
 	)
 	(junction
 		(at 406.4 105.41)
@@ -5158,6 +5601,16 @@
 		)
 		(uuid "f100d7ba-eaa3-4cc7-a778-cecdf1f760c8")
 	)
+	(wire
+		(pts
+			(xy 118.11 132.08) (xy 118.11 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00244643-6076-48ed-b570-f07767b57752")
+	)
 	(bus
 		(pts
 			(xy 170.18 85.09) (xy 187.96 85.09)
@@ -5380,6 +5833,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 134.62) (xy 143.51 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24dbcc44-af00-4055-bb23-e39177778a1c")
+	)
+	(wire
+		(pts
 			(xy 327.66 163.83) (xy 330.2 163.83)
 		)
 		(stroke
@@ -5470,6 +5933,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 144.78) (xy 137.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344e7bb0-3167-49ae-9ac4-beaf5213e42a")
+	)
+	(wire
+		(pts
 			(xy 314.96 171.45) (xy 330.2 171.45)
 		)
 		(stroke
@@ -5550,7 +6023,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 162.56 127)
+			(xy 162.56 123.19) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5780,6 +6253,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 125.73) (xy 162.56 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd14f7a-35b0-4f29-80f8-12e412b839ba")
+	)
+	(wire
+		(pts
 			(xy 246.38 134.62) (xy 241.3 134.62)
 		)
 		(stroke
@@ -5867,6 +6350,16 @@
 			(type default)
 		)
 		(uuid "733ccd1c-6911-42ad-b459-953650d711dc")
+	)
+	(wire
+		(pts
+			(xy 118.11 143.51) (xy 118.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d0a79c-6197-4087-a834-ef6de52aa56e")
 	)
 	(wire
 		(pts
@@ -6010,6 +6503,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 134.62) (xy 154.94 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d83718d-b119-4f70-997c-43650a24e112")
+	)
+	(wire
+		(pts
 			(xy 113.03 179.07) (xy 113.03 177.8)
 		)
 		(stroke
@@ -6070,6 +6573,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 134.62) (xy 119.38 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937e822d-92fe-4478-b962-f5d3bf9cc564")
+	)
+	(wire
+		(pts
 			(xy 406.4 102.87) (xy 406.4 105.41)
 		)
 		(stroke
@@ -6100,6 +6613,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 123.19) (xy 118.11 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d83e5ad-721c-4d5b-8b24-69117ae16c41")
+	)
+	(wire
+		(pts
 			(xy 303.53 107.95) (xy 308.61 107.95)
 		)
 		(stroke
@@ -6107,6 +6630,16 @@
 			(type default)
 		)
 		(uuid "a09e556a-ebff-4f29-b92c-d5e409e28f2d")
+	)
+	(wire
+		(pts
+			(xy 123.19 144.78) (xy 123.19 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a70221-e7fb-4a03-85da-f6555008cbb2")
 	)
 	(wire
 		(pts
@@ -6488,6 +7021,16 @@
 		)
 		(uuid "c49a2cad-84e3-4167-af6f-2a59ebb664bb")
 	)
+	(wire
+		(pts
+			(xy 137.16 121.92) (xy 137.16 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c590bb15-b213-479e-8dfd-8c536605432f")
+	)
 	(bus
 		(pts
 			(xy 469.9 138.43) (xy 469.9 140.97)
@@ -6497,6 +7040,16 @@
 			(type default)
 		)
 		(uuid "c5bf0efa-0f5b-429b-8cf0-612b403ec25f")
+	)
+	(wire
+		(pts
+			(xy 162.56 125.73) (xy 162.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d26575-a063-4433-b8be-7e40366d4de4")
 	)
 	(bus
 		(pts
@@ -6570,6 +7123,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 134.62) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6fabcb-94af-4d62-a68a-eecc02fba799")
+	)
+	(wire
+		(pts
 			(xy 26.67 53.34) (xy 26.67 60.96)
 		)
 		(stroke
@@ -6637,6 +7200,16 @@
 			(type default)
 		)
 		(uuid "d72ef4fa-f2a5-40d9-9f81-447885190969")
+	)
+	(wire
+		(pts
+			(xy 118.11 134.62) (xy 118.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da616c37-068b-4ff8-9856-d634fb4c3081")
 	)
 	(wire
 		(pts
@@ -6770,6 +7343,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 144.78) (xy 123.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea71dfa7-3b73-41e5-8339-c4506e7045ca")
+	)
+	(wire
+		(pts
 			(xy 30.48 60.96) (xy 33.02 60.96)
 		)
 		(stroke
@@ -6888,6 +7471,16 @@
 		)
 		(uuid "f38dc985-b18b-48e6-b039-0bf46412489f")
 	)
+	(wire
+		(pts
+			(xy 118.11 123.19) (xy 119.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f552594d-a41d-4cb6-91e7-305a9c12ee57")
+	)
 	(bus
 		(pts
 			(xy 450.85 118.11) (xy 450.85 120.65)
@@ -6917,6 +7510,16 @@
 			(type default)
 		)
 		(uuid "fbf47817-109a-45ba-9bd4-1f7b0c0bb114")
+	)
+	(wire
+		(pts
+			(xy 154.94 134.62) (xy 154.94 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe61ad20-37ad-4594-b265-d2ebaa518152")
 	)
 	(label "3B"
 		(at 477.52 87.63 180)
@@ -7788,6 +8391,16 @@
 		)
 		(uuid "efbd8fde-8ce6-4173-ad55-5682aedfbe9c")
 	)
+	(label "EM_sense"
+		(at 154.94 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1997776-e1b7-4c2d-abb5-a6f2e3744dfc")
+	)
 	(label "3A"
 		(at 477.52 90.17 180)
 		(effects
@@ -8296,6 +8909,91 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:DSK310_C28646289")
+		(at 124.46 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "121bfd40-f7b9-4db4-9058-3b448f353184")
+		(property "Reference" "D15"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DSK310"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda:SOD-123FL_L2.8-W1.9-LS3.7-RD"
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C28646289"
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646289"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d999a58d-73a2-467e-a05f-3454c2368906")
+		)
+		(pin "2"
+			(uuid "a203787f-2237-48f8-86c5-2632b4cabab1")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 180.34 0)
 		(unit 1)
@@ -8743,6 +9441,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 137.16 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea0f6d4-8286-4a73-b86f-2d34c0ffd0d5")
+		(property "Reference" "#PWR0132"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b3e293-b7ec-4789-a140-7d4a36384974")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 327.66 158.75 0)
 		(unit 1)
@@ -8803,6 +9567,84 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
 					(reference "#PWR87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31617d3d-a3cf-45d9-af31-d6d31404cc0f")
+		(property "Reference" "R47"
+			(at 146.0499 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "390"
+			(at 148.5899 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 147.32 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17655"
+			(at 146.0499 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e3c69a0-729c-4e87-9dc4-14150ddc1cfc")
+		)
+		(pin "2"
+			(uuid "907745f0-cc70-4239-92c3-514616989ed1")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -10005,6 +10847,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 118.11 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "779f67e7-f4e6-471c-b3ef-8da482ba3c1c")
+		(property "Reference" "R45"
+			(at 120.65 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3k"
+			(at 120.65 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 119.888 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17661"
+			(at 120.65 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee4b1fe5-af47-459e-9532-c41e7c65cc3e")
+		)
+		(pin "2"
+			(uuid "88f8d6ee-50f0-476d-ac3e-f873d1c0ef80")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 147.32 0)
 		(unit 1)
@@ -10065,6 +10986,176 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
 					(reference "#PWR33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "875d64b7-909f-45f5-addf-8fc642526825")
+		(property "Reference" "R46"
+			(at 120.65 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k2"
+			(at 120.65 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 116.332 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17379"
+			(at 120.65 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d228a632-33a9-4b6d-9446-72d66cf56447")
+		)
+		(pin "2"
+			(uuid "4a50e094-ca84-4a61-9872-990df30d9a5f")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:BAT54SLT1G")
+		(at 135.89 134.62 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cfc6c54-56ab-4a76-ab9b-199a8f979404")
+		(property "Reference" "D14"
+			(at 140.97 133.2249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54SLT1G"
+			(at 138.43 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON_BAT54SLT1G_BAT54SLT1G_C19726.html"
+			(at 121.92 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19726"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19726"
+			(at 140.97 133.2249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3153756f-1a33-4c52-8ee5-a701af23b7aa")
+		)
+		(pin "2"
+			(uuid "d948d8ff-fd49-451a-afd4-1ecef62f9f22")
+		)
+		(pin "1"
+			(uuid "edd5a82e-d32a-41a9-b9bc-d896301b3bfa")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -10341,6 +11432,72 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
 					(reference "#PWR89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12P")
+		(at 119.38 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "932dc4e3-1a12-4e7d-81ac-4c6c658b6ee3")
+		(property "Reference" "#PWR011"
+			(at 119.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12P"
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12P\""
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fd383b1-963b-4d3f-bf2a-4561064ebbec")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10632,6 +11789,72 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
 					(reference "#PWR22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6d45d2f-7773-412e-9be2-64196759f099")
+		(property "Reference" "#PWR0131"
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3313afd5-e75a-4ad8-a9bf-a8680f3fe3a5")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
