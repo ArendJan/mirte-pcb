@@ -1980,17 +1980,6 @@
 		)
 		(uuid "41ddd44b-8020-4bce-878d-abb4d94be61f")
 	)
-	(hierarchical_label "~{EMERGENCY_SW}"
-		(shape input)
-		(at 68.58 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc3084a8-b568-465c-986d-a73c94cfd829")
-	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 223.52 86.36 0)
