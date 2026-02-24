@@ -100,20 +100,8 @@
           "IMU"
         ],
         [
-          "courtyards_overlap|119276500|99492467|5bf63b79-d47b-4f83-a5dd-a6801bce1186|77a11343-0ad5-465e-b986-26e9664268ff",
-          "under imu"
-        ],
-        [
           "courtyards_overlap|121097300|119328000|357fc9c4-8271-47e4-900f-e346ead5a8d4|77a11343-0ad5-465e-b986-26e9664268ff",
           "under imu overhang"
-        ],
-        [
-          "courtyards_overlap|121307257|103514133|4701aa7d-1a9a-46b1-848d-6beee79fea15|77a11343-0ad5-465e-b986-26e9664268ff",
-          "imu"
-        ],
-        [
-          "courtyards_overlap|123686500|103514133|6f8ec2da-712a-40b4-9347-8b7f3ba6606e|77a11343-0ad5-465e-b986-26e9664268ff",
-          "IMU"
         ],
         [
           "courtyards_overlap|123705300|119328000|77a11343-0ad5-465e-b986-26e9664268ff|8b07eab0-53ac-462b-9178-c0a4b7a9f2cf",
@@ -122,14 +110,6 @@
         [
           "courtyards_overlap|123743073|107535800|77a11343-0ad5-465e-b986-26e9664268ff|83a1b21d-151f-4f5f-9425-b13afca2e032",
           "IMU\\"
-        ],
-        [
-          "courtyards_overlap|123813500|99492467|67b4dae3-c5d3-4e36-92e4-40db2a33aeee|77a11343-0ad5-465e-b986-26e9664268ff",
-          "under imu"
-        ],
-        [
-          "courtyards_overlap|124159500|95470800|77a11343-0ad5-465e-b986-26e9664268ff|78d5dd86-5478-4550-930a-0cfb288950c5",
-          "IMU"
         ],
         [
           "courtyards_overlap|125737300|119328000|00fa2966-0f03-4bfc-aebf-3206408a5d6a|77a11343-0ad5-465e-b986-26e9664268ff",

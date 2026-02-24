@@ -1713,6 +1713,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Idea:\n12V is only on when main sw is on\n12V enables NPN transistor and only when Q2 and EM sw are conducting, the mosfet turns on.\n\nThis should remove the ripple at the 12V line, triggering a shutdown of the TL431"
 		(exclude_from_sim no)
@@ -1755,6 +1856,12 @@
 		(uuid "cc2a2c1b-6f3b-44ad-a8ee-ac795cf64d91")
 	)
 	(junction
+		(at 182.88 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13ccc335-018f-4336-b2eb-c9a86df2aa64")
+	)
+	(junction
 		(at 195.58 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1791,6 +1898,12 @@
 		(uuid "7ed2b780-8644-4bd2-8181-362a96fb00e6")
 	)
 	(junction
+		(at 228.6 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f7a960a-b587-4863-9347-7b0f850c0b47")
+	)
+	(junction
 		(at 191.77 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1807,6 +1920,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9f0c381-d499-4f13-9a5e-90c83c2c3d96")
+	)
+	(junction
+		(at 184.15 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0acf3e7-2323-4bfd-81ad-5ccb7ad2c820")
 	)
 	(junction
 		(at 203.2 90.17)
@@ -1852,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 90.17) (xy 226.06 90.17)
+			(xy 215.9 90.17) (xy 228.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1892,6 +2011,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 90.17) (xy 236.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212487ab-ca1c-4a45-88ba-dae30a200420")
+	)
+	(wire
+		(pts
 			(xy 170.18 129.54) (xy 172.72 129.54)
 		)
 		(stroke
@@ -1902,7 +2031,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 137.16) (xy 184.15 138.43)
+			(xy 182.88 137.16) (xy 182.88 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 123.19) (xy 184.15 123.19)
+			(xy 179.07 121.92) (xy 184.15 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2132,6 +2261,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 137.16) (xy 184.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ed6162-ea76-4fcb-a9e7-fc625a0caa8d")
+	)
+	(wire
+		(pts
 			(xy 158.75 128.27) (xy 158.75 129.54)
 		)
 		(stroke
@@ -2152,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 137.16) (xy 184.15 137.16)
+			(xy 172.72 137.16) (xy 182.88 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +2361,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 119.38) (xy 179.07 123.19)
+			(xy 179.07 119.38) (xy 179.07 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2762,6 +2901,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 228.6 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd4b3e0-d5fa-41d5-bb23-37f77eb83747")
+		(property "Reference" "#FLG01"
+			(at 228.6 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 228.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d20ae18-78e6-472a-8507-19ee6f388fb7")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d/ba374fa6-0102-4739-aefe-fc2208dddd6b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 176.53 96.52 180)
 		(unit 1)
@@ -3280,7 +3485,7 @@
 	)
 	(symbol
 		(lib_id "power:+12P")
-		(at 226.06 90.17 0)
+		(at 236.22 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3289,7 +3494,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccd87992-88d3-4792-9e40-aeeb385e435a")
 		(property "Reference" "#PWR0115"
-			(at 226.06 93.98 0)
+			(at 236.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3503,7 @@
 			)
 		)
 		(property "Value" "+12P"
-			(at 226.06 85.09 0)
+			(at 236.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 90.17 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 90.17 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3529,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12P\""
-			(at 226.06 90.17 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3551,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 138.43 0)
+		(at 182.88 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3355,7 +3560,7 @@
 		(fields_autoplaced yes)
 		(uuid "d17d106f-64ff-41d9-a1f8-01ab5955630b")
 		(property "Reference" "#PWR019"
-			(at 184.15 144.78 0)
+			(at 182.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3569,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 143.51 0)
+			(at 182.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 138.43 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 138.43 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 138.43 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

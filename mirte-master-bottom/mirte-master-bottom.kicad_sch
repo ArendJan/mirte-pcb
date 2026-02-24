@@ -4693,12 +4693,6 @@
 		(uuid "06eeaa9a-4717-44f5-ba39-92cdca1ba296")
 	)
 	(junction
-		(at 123.19 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47018d85-04ec-44d2-8cb0-e66818a13faf")
-	)
-	(junction
 		(at 71.12 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4721,6 +4715,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "928e261a-2f74-4183-9e84-b5b591f4d97e")
+	)
+	(junction
+		(at 123.19 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98d5a597-ee65-4d3e-9481-f0e91df5f39d")
 	)
 	(junction
 		(at 132.08 134.62)
@@ -5139,6 +5139,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 146.05) (xy 123.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9cc13c-97b6-4b95-900b-b4f3f6982b87")
+	)
+	(wire
+		(pts
 			(xy 473.71 92.71) (xy 477.52 92.71)
 		)
 		(stroke
@@ -5329,6 +5339,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 135.89) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ea4329-5557-4610-958f-28b3f19c0b7e")
+	)
+	(wire
+		(pts
 			(xy 408.94 81.28) (xy 408.94 82.55)
 		)
 		(stroke
@@ -5399,7 +5419,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 144.78) (xy 137.16 144.78)
+			(xy 123.19 146.05) (xy 137.16 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6059,16 +6079,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 144.78) (xy 123.19 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0a70221-e7fb-4a03-85da-f6555008cbb2")
-	)
-	(wire
-		(pts
 			(xy 473.71 92.71) (xy 473.71 105.41)
 		)
 		(stroke
@@ -6419,7 +6429,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 137.16 124.46)
+			(xy 137.16 121.92) (xy 137.16 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7819,6 +7829,28 @@
 			)
 		)
 	)
+	(global_label "PWR_IN_SIG"
+		(shape input)
+		(at 41.91 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3df06688-0e37-4189-a43e-846121c85e78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.8414 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VSYS"
 		(shape input)
 		(at 223.52 48.26 180)
@@ -7837,6 +7869,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_RELAY"
+		(shape output)
+		(at 247.65 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48ed2349-b493-4a50-96f6-b1d139d7a823")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.698 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7885,6 +7939,50 @@
 			)
 		)
 	)
+	(global_label "LED_STRIP"
+		(shape output)
+		(at 474.98 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62a18862-c493-420e-ba32-3ddd78b538e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 462.2582 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_IN_SIG"
+		(shape input)
+		(at 398.78 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "636215bb-90e5-4af9-8bca-92b4c83826f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 412.7114 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 215.9 40.64 180)
@@ -7907,6 +8005,116 @@
 			)
 		)
 	)
+	(global_label "{I2C}"
+		(shape input)
+		(at 123.19 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "715c42c3-ce94-4940-a5cf-75197e425cf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.9529 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_RELAY"
+		(shape output)
+		(at 41.91 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "740f9664-db0b-4bcc-99ba-dd41e90d1c3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.958 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_STRIP"
+		(shape output)
+		(at 193.04 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "740fed00-b70a-4fa1-a9fe-f149548967f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3182 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_IN_SIG"
+		(shape input)
+		(at 247.65 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6344318-404c-4ed0-9647-4138912e78de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.5814 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_RELAY"
+		(shape output)
+		(at 400.05 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aff66431-e062-4afc-9c36-d2e90adb375b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 416.098 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 129.54 181.61 270)
@@ -7920,6 +8128,28 @@
 		(uuid "b0ea06cd-08db-4505-8c39-3fb3ed27b647")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.54 188.1633 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_STRIP"
+		(shape output)
+		(at 59.69 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b24e4d12-4975-477b-ae03-a8cdd9f9184d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.9682 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,116 +8246,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "PWR_IN_SIG"
-		(shape input)
-		(at 41.91 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "232d3f62-496a-40b5-b058-8d4c407be435")
-	)
-	(hierarchical_label "PWR_IN_SIG"
-		(shape input)
-		(at 247.65 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b5c7255-369b-41ef-8450-662a3ea0c887")
-	)
-	(hierarchical_label "POWER_RELAY"
-		(shape output)
-		(at 41.91 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30542bf5-f18b-4707-aaba-6a1f54eff92c")
-	)
-	(hierarchical_label "LED_STRIP"
-		(shape output)
-		(at 474.98 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3b4d41d1-8045-4a3e-b4fb-51ef6468a451")
-	)
-	(hierarchical_label "POWER_RELAY"
-		(shape output)
-		(at 247.65 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "711392f6-64a0-4c6b-b0aa-87d709fbbccc")
-	)
-	(hierarchical_label "LED_STRIP"
-		(shape output)
-		(at 59.69 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9440ab9a-ac8e-42a0-8c75-49101803668b")
-	)
-	(hierarchical_label "PWR_IN_SIG"
-		(shape input)
-		(at 398.78 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "998d324f-50e6-41fc-a157-7fa6d68a9866")
-	)
-	(hierarchical_label "{I2C}"
-		(shape input)
-		(at 123.19 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a885f651-451a-4819-8308-43ecb085a108")
-	)
-	(hierarchical_label "POWER_RELAY"
-		(shape output)
-		(at 400.05 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e202f69d-6b59-4897-b01e-6edfb298474e")
-	)
-	(hierarchical_label "LED_STRIP"
-		(shape output)
-		(at 193.04 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "efcd5249-8094-4a31-b38d-048bbc7a6c1b")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
@@ -10173,7 +10293,7 @@
 	)
 	(symbol
 		(lib_id "easyeda:BAT54SLT1G")
-		(at 135.89 134.62 270)
+		(at 135.89 135.89 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10182,7 +10302,7 @@
 		(dnp no)
 		(uuid "8cfc6c54-56ab-4a76-ab9b-199a8f979404")
 		(property "Reference" "D14"
-			(at 140.97 133.2249 90)
+			(at 140.97 134.4949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10191,7 +10311,7 @@
 			)
 		)
 		(property "Value" "BAT54SLT1G"
-			(at 138.43 136.652 90)
+			(at 138.43 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10320,7 @@
 			)
 		)
 		(property "Footprint" "easyeda:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 124.46 134.62 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10329,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON_BAT54SLT1G_BAT54SLT1G_C19726.html"
-			(at 121.92 134.62 0)
+			(at 121.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,7 +10338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 134.62 0)
+			(at 135.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10347,7 @@
 			)
 		)
 		(property "LCSC Part" "C19726"
-			(at 119.38 134.62 0)
+			(at 119.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10356,7 @@
 			)
 		)
 		(property "LCSC" "C19726"
-			(at 140.97 133.2249 0)
+			(at 140.97 134.4949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
