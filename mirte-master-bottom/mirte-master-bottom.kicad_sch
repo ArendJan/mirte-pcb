@@ -11958,6 +11958,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 262.128 52.07)
+		(size 12.7 10.668)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de9dc731-d2cc-4815-92d8-cbf7f639e141")
+		(property "Sheetname" "test_usb_pwr"
+			(at 262.128 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "test_usb_pwr.kicad_sch"
+			(at 262.128 63.3226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea"
+					(page "14")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

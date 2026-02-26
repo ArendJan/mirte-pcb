@@ -966,6 +966,10 @@
     [
       "2cdda85b-f21e-4225-a618-9cefba4ad079",
       "uart_servos"
+    ],
+    [
+      "de9dc731-d2cc-4815-92d8-cbf7f639e141",
+      "test_usb_pwr"
     ]
   ],
   "text_variables": {}
