@@ -51,3 +51,4 @@ mirte-master-bottom/mirte-master-bottom.step
 !*/jlcpcb/project.db
 mirte-pioneer/jlcpcb/production_files/GERBER-mirte_combination.zip
 \#auto_saved_files\#
+*.kicad_sch_old

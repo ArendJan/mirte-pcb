@@ -3518,6 +3518,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C918120"
+			(at 180.34 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b586562-764e-4d03-b564-cb5ced973174")
 		)

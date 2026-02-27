@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e4f2b85e-7821-4329-a066-2b112f0486bd")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,45 +83,9 @@
 				)
 			)
 			(symbol "Conn_01x04_Socket_1_1"
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy -1.27 2.54) (xy -0.508 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -143,7 +109,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -154,21 +132,45 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
+					(start 0 2.032)
 					(mid -0.5058 2.54)
-					(end 0 2.032)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -250,9 +252,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -371,11 +376,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -448,7 +458,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -460,7 +470,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -474,8 +484,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -491,11 +501,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -570,8 +585,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -587,6 +602,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -594,6 +610,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "788e198a-e2cf-4e3b-92e5-d703ce7e20fc")
+	)
+	(junction
+		(at 138.43 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f77e91f2-d68e-49b0-ab08-b0418fdf7a90")
+	)
+	(no_connect
+		(at 125.73 88.9)
+		(uuid "1ff9b7d7-c259-4f47-95f4-5d214669fbc3")
 	)
 	(wire
 		(pts
@@ -607,7 +633,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 92.71) (xy 142.24 92.71)
+			(xy 133.35 80.01) (xy 138.43 80.01)
 		)
 		(stroke
 			(width 0)
@@ -657,6 +683,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 80.01) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff69ae6-94fe-4984-a2d4-4670215b28b6")
+	)
+	(wire
+		(pts
 			(xy 142.24 90.17) (xy 142.24 92.71)
 		)
 		(stroke
@@ -677,6 +713,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dab194b-a135-4bc4-8aa8-49a9b95ccb3b")
+	)
+	(wire
+		(pts
 			(xy 153.67 77.47) (xy 162.56 77.47)
 		)
 		(stroke
@@ -687,17 +733,27 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 80.01) (xy 162.56 80.01)
+			(xy 123.19 88.9) (xy 125.73 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de426845-f65e-46c5-b24c-d2d2a6fc6d23")
+		(uuid "ab8c3d49-18e0-47ee-a0e5-828194f3709c")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ffd891-0dff-430a-8a1e-a8eec6dee7fe")
 	)
 	(hierarchical_label "ECHO"
 		(shape input)
-		(at 137.16 92.71 180)
+		(at 123.19 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -708,7 +764,7 @@
 	)
 	(hierarchical_label "TRIG"
 		(shape input)
-		(at 148.59 80.01 180)
+		(at 133.35 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -727,7 +783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d04c6b4-9401-481b-8133-21a00c339ad5")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 168.91 80.01 0)
 			(effects
 				(font
@@ -850,7 +906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7de38636-00c9-4641-8e7e-17df4c7eb670")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR05"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -885,7 +941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -938,7 +994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9bea68-70b8-4663-8e1d-da335b917104")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -1021,7 +1077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e468ba9e-c86d-4618-b046-9eec6688355d")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -1104,7 +1160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4131ee2-0b4c-43ae-ab0e-3d95942c54dc")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR02"
 			(at 153.67 93.98 0)
 			(effects
 				(font
@@ -1139,7 +1195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 87.63 0)
 			(effects
 				(font
@@ -1192,7 +1248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fac2a266-3f33-44f5-905b-8781a06345f2")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR01"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -1227,7 +1283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 153.67 73.66 0)
 			(effects
 				(font

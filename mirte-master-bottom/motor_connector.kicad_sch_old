@@ -999,6 +999,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda:RVT1H470M0607"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RVT1H470M0607"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_47uF-50V-20_C72523.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C72523"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RVT1H470M0607_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0.76) (xy -1.52 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 1.27) (xy -2.03 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.21 -1.83)
+					(mid 1.1844 0.0627)
+					(end 1.33 1.95)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda:XL-1615SURUGC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1573,131 +1741,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1810,16 +1853,6 @@
 		)
 		(uuid "1b269290-8140-4a80-8632-23f7c7b84a00")
 	)
-	(text "imode = fixed off time @ overcurrent\npmode = pwm 2x"
-		(exclude_from_sim no)
-		(at 70.104 114.808 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "37e135d7-488e-4528-8fc6-56c5c34fbbdf")
-	)
 	(text "3A diode for reverse protection when pushing robot\nNOTE: removed it as back-emf blows up the h-bridge"
 		(exclude_from_sim no)
 		(at 53.086 25.908 0)
@@ -1830,11 +1863,37 @@
 		)
 		(uuid "6acd8324-0b03-451d-9571-0dea017122e1")
 	)
+	(text "MAIN SIDE, UPDATE THE MAIN ONE AS WELL!!!"
+		(exclude_from_sim no)
+		(at 100.584 141.478 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6eb1fe1e-629c-43d4-b8fb-afca2cc12b3b")
+	)
+	(text "I_{trip} = V_{ref}/(10*R_{sen})\n\n1.5 = 5/4\n\nRsense use:\nI_{rms}^{2} * R = 0.5^2 * 3 = 0.75W\n\n\n3v3:\n1.5 = 3.3/(10*0.2)\n\n0.5^2*0.2 = 0.05W\n\nUSE 3v3!!!\n"
+		(exclude_from_sim no)
+		(at 38.354 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dbc09071-e36b-42a7-abb0-45404d1a17b8")
+	)
 	(junction
-		(at 62.23 66.04)
+		(at 78.74 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a2da208-0a4a-4e28-b3f1-29ca119854a9")
+		(uuid "0ff4f5da-9f0f-4a4d-99ce-d4dfd70bc55a")
+	)
+	(junction
+		(at 78.74 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7223060-581b-4cbc-9024-068bfbde395f")
 	)
 	(junction
 		(at 59.69 87.63)
@@ -1847,6 +1906,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a7922c-b504-4e5c-8c48-8da024a0bb00")
+	)
+	(junction
+		(at 62.23 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f92399f3-5995-42cb-8696-b6426003ff68")
+	)
+	(wire
+		(pts
+			(xy 73.66 86.36) (xy 73.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049a56ff-73b4-45ff-9622-c50d275b4251")
 	)
 	(wire
 		(pts
@@ -1950,6 +2025,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 53.34) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443a3832-23e8-432c-9b49-243a0b5a36dd")
+	)
+	(wire
+		(pts
 			(xy 69.85 80.01) (xy 74.93 80.01)
 		)
 		(stroke
@@ -2030,13 +2115,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 54.61) (xy 69.85 66.04)
+			(xy 78.74 66.04) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70f853ff-f1ac-4d2f-a791-06edbcb205ad")
+		(uuid "5d8aa0e4-69f6-4820-9839-65e161d4a243")
 	)
 	(wire
 		(pts
@@ -2047,16 +2132,6 @@
 			(type default)
 		)
 		(uuid "7484c21e-ec71-46ef-ae28-d9f172fda707")
-	)
-	(wire
-		(pts
-			(xy 69.85 54.61) (xy 78.74 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f0b2dd6-a492-4f97-9b8f-8cd3db324e6f")
 	)
 	(wire
 		(pts
@@ -2100,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 54.61) (xy 78.74 57.15)
+			(xy 78.74 53.34) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 87.63) (xy 72.39 85.09)
+			(xy 73.66 95.25) (xy 73.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2120,13 +2195,43 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 43.18) (xy 62.23 66.04)
+			(xy 90.17 63.5) (xy 90.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8565ac4-a298-467a-84dd-03378a8bc14d")
+	)
+	(wire
+		(pts
+			(xy 62.23 43.18) (xy 62.23 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b314dfb7-c86b-479e-90e3-70b5ed12f952")
+	)
+	(wire
+		(pts
+			(xy 90.17 55.88) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60e4528-2878-42e4-b13a-b619e55bccde")
+	)
+	(wire
+		(pts
+			(xy 78.74 66.04) (xy 78.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab0d044-ebaa-4aff-9fe1-253fcae9e1f2")
 	)
 	(wire
 		(pts
@@ -2137,6 +2242,16 @@
 			(type default)
 		)
 		(uuid "bda92dd0-a4de-43c6-895e-510e0d3e9c17")
+	)
+	(wire
+		(pts
+			(xy 90.17 53.34) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c467fefe-facc-45e8-95e0-8740c3daf80d")
 	)
 	(wire
 		(pts
@@ -2160,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 85.09) (xy 72.39 85.09)
+			(xy 69.85 85.09) (xy 73.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 64.77) (xy 78.74 67.31)
+			(xy 78.74 64.77) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 66.04) (xy 62.23 68.58)
+			(xy 62.23 53.34) (xy 62.23 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2237,16 +2352,6 @@
 			(type default)
 		)
 		(uuid "f48e7cb2-f73e-4570-a21c-a384af58d9a9")
-	)
-	(wire
-		(pts
-			(xy 69.85 66.04) (xy 62.23 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd6d525-e7b2-472a-aacc-e85d7dbfbb61")
 	)
 	(label "MOT_A"
 		(at 74.93 77.47 0)
@@ -2373,6 +2478,89 @@
 		(uuid "a7dcb09e-3327-49f5-a32f-7d6508d380cc")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 73.66 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0923cb33-dda5-481c-b467-f3aa9ab83e4a")
+		(property "Reference" "R37"
+			(at 76.2 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.2"
+			(at 76.2 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 75.438 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C44051"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b1b4ea0-76c0-4249-8888-4a93de24d564")
+		)
+		(pin "2"
+			(uuid "d178b4ef-133f-4246-97e7-a1393390b8a8")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 88.9 0)
 		(unit 1)
@@ -2382,7 +2570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1366b69b-b7cb-4f20-87b3-887effa1cfb0")
-		(property "Reference" "#PWR48"
+		(property "Reference" "#PWR49"
 			(at 59.69 95.25 0)
 			(effects
 				(font
@@ -2431,20 +2619,12 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR51")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "#PWR49")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "#PWR50")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -2460,7 +2640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "248f7737-4b52-4152-a280-d27de14e2b44")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0118"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -2509,20 +2689,12 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR0120")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "#PWR0119")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -2538,7 +2710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8c73fb-270c-4fe0-9fa7-eb328c12b337")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 58.166 69.85 0)
 			(effects
 				(font
@@ -2583,6 +2755,15 @@
 		)
 		(property "LCSC Part" "C5218850"
 			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5218850"
+			(at 58.166 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,6 +2820,106 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:RVT1H470M0607")
+		(at 90.17 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d87df36-b605-4301-90d1-b47942bcb04e")
+		(property "Reference" "C19"
+			(at 93.98 57.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 93.98 60.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_47uF-50V-20_C72523.html"
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C72523"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3349"
+			(at 93.98 57.8149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2cf2d18-f203-468c-8dcd-c07bfc71afe4")
+		)
+		(pin "2"
+			(uuid "3ff26942-40d8-47ec-992f-284a0a998895")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 194.31 72.39 0)
 		(unit 1)
@@ -2648,7 +2929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5df5bf2f-d2da-44b7-b714-d25e8a2e7b8b")
-		(property "Reference" "#PWR73"
+		(property "Reference" "#PWR74"
 			(at 194.31 78.74 0)
 			(effects
 				(font
@@ -2697,20 +2978,12 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR76")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "#PWR74")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "#PWR75")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR73")
 					(unit 1)
 				)
 			)
@@ -2726,7 +2999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d930e7-389b-4267-858b-42e3410dd095")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0122"
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -2775,98 +3048,12 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR0124")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "#PWR0123")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 39.37 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "741b6dfe-60ad-4960-ae1d-c0c1ea9f34ff")
-		(property "Reference" "#PWR110"
-			(at 39.37 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 39.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 39.37 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df1f5ee7-e977-41cb-a6c1-25332abf896b")
-		)
-		(instances
-			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR113")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
-					(reference "#PWR111")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
-					(reference "#PWR112")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR110")
 					(unit 1)
 				)
 			)
@@ -2882,7 +3069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75a34b42-c4c8-43ed-914a-246f4714a7e1")
-		(property "Reference" "#PWR56"
+		(property "Reference" "#PWR57"
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -2931,20 +3118,12 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR59")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "#PWR57")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "#PWR58")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR56")
 					(unit 1)
 				)
 			)
@@ -2960,7 +3139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "916a37ae-fa4b-4888-a409-aee0b6276f13")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -3009,10 +3188,6 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR018")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "#PWR014")
 					(unit 1)
@@ -3021,8 +3196,82 @@
 					(reference "#PWR015")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b99d5d06-7ffc-46ae-ab93-025f872a377f")
+		(property "Reference" "#PWR0126"
+			(at 39.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b52dba1-81b4-4068-a48e-2307ef95536e")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+					(reference "#PWR0127")
+					(unit 1)
+				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR012")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -3038,7 +3287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ddbfec-49bc-42b4-9c41-7888d1135ade")
-		(property "Reference" "R6"
+		(property "Reference" "R25"
 			(at 179.07 66.04 90)
 			(effects
 				(font
@@ -3081,6 +3330,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36bbce60-3b02-4b51-9d53-44973ffd93c9")
 		)
@@ -3089,20 +3347,12 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "R29")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "R25")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "R27")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3118,7 +3368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2b08951-fd93-432b-a1a1-d9ea3e8838a3")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 179.07 72.39 90)
 			(effects
 				(font
@@ -3161,6 +3411,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "749d27c9-97ce-4f44-a627-a6a20fc9a490")
 		)
@@ -3169,20 +3428,12 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "R30")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "R26")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "R28")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3198,7 +3449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccb6b75e-61fc-4f2b-9fc4-5afa8dc45995")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 138.43 76.2 0)
 			(effects
 				(font
@@ -3236,6 +3487,15 @@
 		)
 		(property "Description" ""
 			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131342"
+			(at 138.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,20 +3541,12 @@
 				)
 			)
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "J16")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "J8")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "J15")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3310,7 +3562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d472c683-b95b-4eb6-8b54-5443d430c0ca")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 82.55 59.6899 0)
 			(effects
 				(font
@@ -3355,6 +3607,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 82.55 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1578431-9348-45ff-b3a0-ea665f294cac")
 		)
@@ -3392,7 +3653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da94869f-5a8c-4147-ae68-fbaa7ba37edb")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0107"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -3470,7 +3731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4f1e1cf-1116-41ef-956e-0942ddd706d0")
-		(property "Reference" "LED2"
+		(property "Reference" "LED3"
 			(at 164.72 87.63 0)
 			(effects
 				(font
@@ -3522,6 +3783,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C965839"
+			(at 164.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ea341f3f-f784-4ef8-9494-252a1049b1eb")
 		)
@@ -3536,20 +3806,12 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "LED5")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "LED3")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "LED4")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -3565,7 +3827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef61d4e6-ca1f-4a61-af42-0d8da95401e2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 114.3 85.09 0)
 			(effects
 				(font
@@ -3632,10 +3894,6 @@
 				)
 			)
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR019")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "#PWR013")
 					(unit 1)
@@ -3644,16 +3902,12 @@
 					(reference "#PWR017")
 					(unit 1)
 				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR011")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 87.63 0)
+		(at 73.66 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3661,8 +3915,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3904d8f-e66f-4af3-8174-380d92c79019")
-		(property "Reference" "#PWR44"
-			(at 72.39 93.98 0)
+		(property "Reference" "#PWR45"
+			(at 73.66 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3925,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 92.71 0)
+			(at 73.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 87.63 0)
+			(at 73.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 87.63 0)
+			(at 73.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 87.63 0)
+			(at 73.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,20 +3964,12 @@
 		)
 		(instances
 			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR47")
-					(unit 1)
-				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
 					(reference "#PWR45")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
 					(reference "#PWR46")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR44")
 					(unit 1)
 				)
 			)
@@ -3739,7 +3985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f80e6952-6766-471a-8eeb-7188efd45aa3")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 104.14 115.57 0)
 			(effects
 				(font
@@ -3784,6 +4030,15 @@
 		)
 		(property "LCSC Part" "C880909"
 			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C880909"
+			(at 104.14 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

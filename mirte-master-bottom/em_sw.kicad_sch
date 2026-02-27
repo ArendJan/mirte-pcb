@@ -1856,6 +1856,12 @@
 		(uuid "cc2a2c1b-6f3b-44ad-a8ee-ac795cf64d91")
 	)
 	(junction
+		(at 185.42 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ea62a2-2f18-43c5-a7a7-3458867068ae")
+	)
+	(junction
 		(at 182.88 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2101,6 +2107,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 100.33) (xy 185.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5daa5c-ccd1-42d1-997a-89e7b0daea60")
+	)
+	(wire
+		(pts
 			(xy 191.77 80.01) (xy 187.96 80.01)
 		)
 		(stroke
@@ -2141,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 97.79) (xy 195.58 101.6)
+			(xy 195.58 97.79) (xy 195.58 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2191,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 185.42 97.79)
+			(xy 185.42 101.6) (xy 185.42 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 101.6) (xy 185.42 101.6)
+			(xy 195.58 100.33) (xy 185.42 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2468,6 +2484,15 @@
 		)
 		(property "LCSC Part" "C42441446"
 			(at 184.15 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42441446"
+			(at 185.42 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,6 +3767,15 @@
 		)
 		(property "LCSC Part" "C918120"
 			(at 173.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C918120"
+			(at 170.942 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
