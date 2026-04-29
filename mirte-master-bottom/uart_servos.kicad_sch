@@ -2333,7 +2333,7 @@
 			(uuid "11c28f46-ff02-4fa0-8fa0-adc4fc8c7533")
 		)
 		(instances
-			(project ""
+			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2cdda85b-f21e-4225-a618-9cefba4ad079"
 					(reference "F1")
 					(unit 1)
@@ -2993,7 +2993,7 @@
 			(uuid "5f0583e6-4a1e-4ee8-bf4a-fd0f2749ef20")
 		)
 		(instances
-			(project ""
+			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2cdda85b-f21e-4225-a618-9cefba4ad079"
 					(reference "CN1")
 					(unit 1)

@@ -2553,7 +2553,7 @@
 			(uuid "8e06c4df-c898-4316-8c23-e871af37b300")
 		)
 		(instances
-			(project ""
+			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18"
 					(reference "#PWR26")
 					(unit 1)
@@ -2759,7 +2759,7 @@
 			(uuid "c004698e-3b47-4bbd-82f9-059da5edf638")
 		)
 		(instances
-			(project ""
+			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18"
 					(reference "#PWR25")
 					(unit 1)
@@ -2899,7 +2899,7 @@
 			(uuid "66a8e2c4-8b2e-42a8-98e2-d840f06c68b2")
 		)
 		(instances
-			(project ""
+			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18"
 					(reference "R9")
 					(unit 1)
