@@ -385,7 +385,7 @@ outputs:
   type: kikit_present
   dir: Presentation
   options:
-    description: '# Presentation for mirte_combination
+    description: '# Presentation for mirte_pioneer
 
       This is an automatically generated presentation page'
     boards:

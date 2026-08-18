@@ -321,7 +321,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/88690801-a2f9-4e0c-861c-655393f84a18")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -603,7 +603,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/675abd22-19d3-4da1-832a-7492300a9b0e")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -1141,7 +1141,7 @@
 		(property ki_fp_filters "MSOP*3x3mm*P0.5mm*")
 		(path "/8c0d229b-d90a-4d87-8cbb-d28dd482ab3f")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.675 -1.675)
@@ -1555,7 +1555,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c8f2cc23-ef1a-4684-86bf-08f0c0a59d11")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -1838,7 +1838,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/985f8412-a5a8-4361-83bb-7c7388e1eca7")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -2162,7 +2162,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1885445d-faec-402f-a880-b76d3eb20254")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -2384,7 +2384,7 @@
 		)
 		(path "/49dcae7d-803b-4703-9dff-3d69fc0f1d23")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.5 4.62)
@@ -3028,7 +3028,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ef18bca8-1423-4e4f-811f-45b220b8477b")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -3239,7 +3239,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/ff3b282c-ae88-4f38-95bb-eeb8917df158")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -3425,7 +3425,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/66ab1a5c-dbc5-40c8-8948-21b6446c6ea0")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -3959,7 +3959,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eb3f4ece-332e-4b81-b2dd-42e3eb1ca00e")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -4241,7 +4241,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fbbf4c99-4b3e-4724-8d44-5c8cede4bc4a")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -4588,7 +4588,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a92b6c2f-d89e-4793-bcff-5ba21a49dff3")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -5137,7 +5137,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a177e396-12e3-4e8d-a64c-576871d79425")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -5686,7 +5686,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a1e3655b-02b6-4beb-a079-2966769e8d7e")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -5968,7 +5968,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3e7c24e1-34c2-4eb3-a62b-7a119f855cc9")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -6506,7 +6506,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dff6cc03-3075-4d1c-92bb-2000a5da940f")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -7044,7 +7044,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7e348447-30d4-4135-811a-d20ad660658b")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -7538,7 +7538,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/c419b97d-37e5-4eb2-a929-17e7b9d2478a")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -7862,7 +7862,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/25cbc89d-f952-400e-b845-6f84183c27c7")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -8209,7 +8209,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1caac7f4-96dc-4d97-9f7c-0f69e32bc13b")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -8743,7 +8743,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/93eebbb8-7e5b-49e6-b97c-cd5e5b85055c")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -9281,7 +9281,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/83969718-9d0c-4829-9b27-9c37bdcb0ccf")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -9819,7 +9819,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cec5c2f0-3f9c-48de-9535-5e451399b691")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -10166,7 +10166,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1f61eaf1-2d3c-431f-865d-085e767c8882")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -10716,7 +10716,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/49af1053-4d58-4abd-af08-afae64e1d242")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -11265,7 +11265,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d2b4cf7c-3d2c-4a7a-95d2-26685fca589a")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -11815,7 +11815,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e544c910-b86a-44c7-bc9a-38adc6b2edd3")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -12096,7 +12096,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/66706cfd-6633-4260-b49a-c546d980257b")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -12323,7 +12323,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cb03428f-a332-4923-bd98-9e586ad784d9")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -12544,7 +12544,7 @@
 		)
 		(path "/1211f7e5-e837-4dc3-8805-d607476f69e9")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.4 -2.2)
@@ -12864,7 +12864,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0471fb43-a32b-4789-807d-140a66645064")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -13413,7 +13413,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/95a1701e-0f6a-422d-836f-bde09eae0b52")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -13695,7 +13695,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0dc36a6a-006d-404a-8477-ff1eb53e7c0d")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -13917,7 +13917,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e23a3bf5-f6e2-4a08-9ccf-17f10fb8ecf3")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -10.09 -1.33)
@@ -15354,7 +15354,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/60d1088e-593f-4246-971c-bbf8e4b7cbdd")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -15821,7 +15821,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/05a22640-51a0-473e-8753-bc0eee19f23f")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -15981,7 +15981,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/62007764-143b-4126-8d48-c51a3d679863")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -16192,7 +16192,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2301d9e7-7e85-4336-9af7-64007e55cd7a")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
@@ -16572,7 +16572,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/03209d81-cd0e-4901-99a6-742235dc3cb8")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -17076,7 +17076,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c949f7ac-c73c-4b22-83c4-7fc3bd7f2241")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
@@ -17457,7 +17457,7 @@
 		(property ki_fp_filters "USB*")
 		(path "/45f0a43a-b311-475f-8bb1-0e24dc73fdc6")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.81 12.58)
@@ -17970,7 +17970,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/76eb6279-1ee2-4ebb-a904-0500ee791391")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -18156,7 +18156,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7b01a0dd-96ff-4278-8ffe-f36aad79765a")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.6 -2.75)
@@ -18705,7 +18705,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d98ad33d-f602-4d03-9034-3af550e1f7c0")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -19085,7 +19085,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/619609ca-690e-42b2-8885-0603e4b341c1")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
@@ -19443,7 +19443,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/711d9231-0ab4-4487-8c78-759e0e2e026a")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -19725,7 +19725,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0899a28d-532e-41b9-8639-9530c8f68305")
 		(sheetname "Root")
-		(sheetfile "mirte_combination.kicad_sch")
+		(sheetfile "mirte_pioneer.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
