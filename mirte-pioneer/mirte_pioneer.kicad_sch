@@ -3501,6 +3501,203 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -4752,6 +4949,153 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc:SMBJ5.0A_C83333"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMBJ5.0A_C83333"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc:SMB_L4.6-W3.6-LS5.3-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Littelfuse_SMBJ5-0A_Littelfuse-SMBJ5-0A_C83333.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Littelfuse(美国力特)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SMBJ5.0A"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C83333"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TVS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ5.0A_C83333_0_1"
+				(polyline
+					(pts
+						(xy -2.29 2.29) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.25 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc:TYPE-C6P(073)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5718,9 +6062,9 @@
 		)
 		(uuid "71f509e2-d382-4fec-9782-0a326c50e85f")
 	)
-	(text "Use at least 25mA to keep powerbank on when\npico is also powered by USB and there are\nno other big consumers."
+	(text "Use at least 25mA to keep powerbank on when\npico is also powered by USB and there are\nno other big consumers.\nJumper to disable if wanted"
 		(exclude_from_sim no)
-		(at 177.292 120.65 0)
+		(at 177.292 117.094 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6165,6 +6509,12 @@
 		(uuid "a0381922-5ac5-492f-ad10-f274d9ce5907")
 	)
 	(junction
+		(at 203.2 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1219b9c-3e43-4766-9517-94692692ea5f")
+	)
+	(junction
 		(at 267.97 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6187,12 +6537,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad20e543-6a28-439b-976c-3bea12bcdbe8")
-	)
-	(junction
-		(at 186.69 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca312918-9633-433a-9207-b8e228c7cab0")
 	)
 	(junction
 		(at 200.66 34.29)
@@ -6300,16 +6644,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 132.08) (xy 208.28 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0526f0ac-f319-40ee-a423-f6198ab91539")
-	)
-	(wire
-		(pts
 			(xy 38.1 172.72) (xy 46.99 172.72)
 		)
 		(stroke
@@ -6357,6 +6691,16 @@
 			(type default)
 		)
 		(uuid "09c70893-17d7-4087-b467-ae6f7a9dd054")
+	)
+	(wire
+		(pts
+			(xy 203.2 132.08) (xy 208.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1317a5-e537-4f97-9828-1355c631eafb")
 	)
 	(polyline
 		(pts
@@ -6637,6 +6981,16 @@
 			(type default)
 		)
 		(uuid "32edf4d6-4a1a-4712-9cde-44076a39f696")
+	)
+	(wire
+		(pts
+			(xy 223.52 238.76) (xy 223.52 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33aa15be-32bb-4b65-8fe9-805243e69261")
 	)
 	(wire
 		(pts
@@ -7158,6 +7512,16 @@
 		)
 		(uuid "78ef7ffa-2ee7-4432-92df-78e5a2e12d2d")
 	)
+	(wire
+		(pts
+			(xy 203.2 132.08) (xy 198.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f38782-f9f8-4b12-be8c-47496fd43387")
+	)
 	(polyline
 		(pts
 			(xy 218.44 17.78) (xy 222.25 17.78)
@@ -7317,6 +7681,16 @@
 			(type default)
 		)
 		(uuid "81e394a8-b9e8-4bd9-a1fc-c51b24d6b6df")
+	)
+	(wire
+		(pts
+			(xy 203.2 128.27) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8295a2c7-4502-4aac-9c18-12177afee45d")
 	)
 	(wire
 		(pts
@@ -7898,6 +8272,26 @@
 		)
 		(uuid "bcccd616-9175-4a4d-b57b-cb3493ec28ee")
 	)
+	(wire
+		(pts
+			(xy 223.52 252.73) (xy 223.52 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be68d07d-b204-4600-82f6-cb6c5dda3c6f")
+	)
+	(wire
+		(pts
+			(xy 191.77 128.27) (xy 195.58 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06f5c61-4885-4077-976f-281cc99c0cb7")
+	)
 	(polyline
 		(pts
 			(xy 17.78 190.5) (xy 111.76 190.5)
@@ -8030,6 +8424,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 252.73) (xy 177.8 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12edec1-7334-42d5-856f-550cf0335e7f")
+	)
+	(wire
+		(pts
 			(xy 130.81 24.13) (xy 130.81 21.59)
 		)
 		(stroke
@@ -8158,16 +8562,6 @@
 		)
 		(uuid "e399270c-3fc6-44a2-838d-b30a0c76f81d")
 	)
-	(wire
-		(pts
-			(xy 186.69 129.54) (xy 186.69 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42315bf-5f69-4aa2-9684-394f083b390c")
-	)
 	(polyline
 		(pts
 			(xy 17.78 91.44) (xy 17.78 113.03)
@@ -8227,6 +8621,16 @@
 			(type default)
 		)
 		(uuid "e776d322-652c-4976-b4c9-38f5c0d2254e")
+	)
+	(wire
+		(pts
+			(xy 177.8 238.76) (xy 177.8 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7772c03-0263-47cf-8225-2ac2428cf46e")
 	)
 	(polyline
 		(pts
@@ -9219,6 +9623,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 223.52 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b2aebd3-7b20-407d-b00a-9a53b3d86524")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.5293 238.8394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10692,6 +11118,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 177.8 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c2c12b7-faed-47ef-ad4f-786352121eeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.5112 238.6806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape input)
 		(at 191.77 62.23 180)
@@ -10997,6 +11445,28 @@
 		(uuid "ad498f13-53a6-4170-86b1-b8c465b6e34e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.4312 21.5106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_GND"
+		(shape input)
+		(at 177.8 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad571319-2933-4064-8517-61c273de25b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.3212 256.4606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11545,22 +12015,22 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 186.69 129.54 0)
+		(at 191.77 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "db4f2db1-dc26-47e5-9e32-4785be0f45bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.4012 129.6194 0)
+			(at 187.0588 128.3494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11742,6 +12212,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_GND"
+		(shape input)
+		(at 223.52 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e01b7b34-343b-40de-a111-c3984d6cb070")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.0412 256.4606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12181,6 +12673,103 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:SMBJ5.0A_C83333")
+		(at 177.8 247.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00f0f242-0fdd-4c13-8293-6929577a4e41")
+		(property "Reference" "D5"
+			(at 181.61 245.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ5.0A_C83333"
+			(at 181.61 248.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc:SMB_L4.6-W3.6-LS5.3-RD"
+			(at 170.18 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Littelfuse_SMBJ5-0A_Littelfuse-SMBJ5-0A_C83333.html"
+			(at 167.64 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 165.1 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMBJ5.0A"
+			(at 162.56 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C83333"
+			(at 160.02 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "034a6323-9de6-4ee4-8d57-c22b1ecb7b1c")
+		)
+		(pin "1"
+			(uuid "0a5e686f-4c23-41f8-9a08-2cdc91fdcb7b")
+		)
+		(instances
+			(project "mirte_pioneer"
+				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
+					(reference "D5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -17928,6 +18517,171 @@
 			(project "mirte_pioneer"
 				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 199.39 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd24326-54a2-4508-ae2b-36d88a37b08a")
+		(property "Reference" "JP2"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bf39642-cab0-4373-9215-14ae3b6c4416")
+		)
+		(pin "2"
+			(uuid "1b002f08-4ba6-4f20-b187-252097eb7c0d")
+		)
+		(instances
+			(project "mirte_pioneer"
+				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:SMBJ5.0A_C83333")
+		(at 223.52 247.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd2234a5-9931-4486-8edb-349ab29ebf05")
+		(property "Reference" "D6"
+			(at 227.33 245.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ5.0A_C83333"
+			(at 227.33 248.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc:SMB_L4.6-W3.6-LS5.3-RD"
+			(at 215.9 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Littelfuse_SMBJ5-0A_Littelfuse-SMBJ5-0A_C83333.html"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 210.82 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMBJ5.0A"
+			(at 208.28 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C83333"
+			(at 205.74 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e46755c0-61d4-40a8-aeb9-9c14a150e912")
+		)
+		(pin "1"
+			(uuid "360522b2-e20f-4fed-b0a0-8a2ef0de264c")
+		)
+		(instances
+			(project "mirte_pioneer"
+				(path "/76b487fd-45a4-4e6a-8af9-b4f78fb0af77"
+					(reference "D6")
 					(unit 1)
 				)
 			)
